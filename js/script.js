@@ -61,3 +61,43 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+// counter
+document.addEventListener("DOMContentLoaded", function () {
+  const counters = document.querySelectorAll(".odometer");
+
+  const startCounting = (counter, target) => {
+    let current = 0;
+    const speed = 50; // Lower = faster, higher = slower
+    const increment = Math.ceil(target / speed);
+
+    const updateCounter = () => {
+      current += increment;
+      if (current >= target) {
+        counter.innerText = target;
+      } else {
+        counter.innerText = current;
+        requestAnimationFrame(updateCounter);
+      }
+    };
+
+    updateCounter();
+  };
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const counter = entry.target;
+          const target = parseInt(counter.getAttribute("data-count"), 10);
+          startCounting(counter, target);
+          observer.unobserve(counter); // Stop observing once animated
+        }
+      });
+    },
+    { threshold: 0.5 } // Starts when 50% of the section is visible
+  );
+
+  counters.forEach((counter) => {
+    observer.observe(counter);
+  });
+});

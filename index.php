@@ -27,12 +27,14 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
 	<link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
-	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/hover-min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- Keep this before style.css -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Should be last -->
+
 
 </head>
 <!-- index-carousel  -->
@@ -66,13 +68,14 @@
 					<p class="product-description">With our quality and quality understanding, our products are
 						qualified and professional staff, taking care of customer requests in healthy and hygienic
 						environments.</p>
-					<a href="/contact/" target="_blank" class="btn btn-primary enquiry-btn">Enquiry Now</a>
+					<a href="/contact/" target="_blank" class="btn btn-primary enquiry-btn">Enquire Now</a>
 				</div>
 			</div>
 
 			<!-- Right Column -->
 			<div class="col-lg-6 right-content">
-				<h1 class="section-title">Calendar Manufacturers, Suppliers, Printing in Sivakasi</h1>
+				<h1 class="section-title text-center text-lg-left">Calendar Manufacturers, Suppliers, Printing in
+					Sivakasi</h1>
 				<p class="section-description">At Demo Calendarz, our primary focus has always been to deliver printing
 					services of the highest quality to our esteemed clientele.</p>
 
@@ -100,6 +103,169 @@
 			</div>
 		</div>
 	</section>
+	<section class="index-two">
+		<div class="job-area">
+			<div class="job-shape">
+				<img class="img-fluid" src="images/service-11.webp" alt="calendar3">
+			</div>
+			<div class="container-fluid">
+				<div class="row m-0">
+					<div class="col-12 col-md-12 col-lg-6">
+						<div class="job-img">
+							<!-- <img src="./images/service-11.webp" alt="calendar2"> -->
+						</div>
+					</div>
+					<div class="col-12 col-md-12 col-lg-6">
+						<div class="job-content">
+							<div class="section-title">
+								<h2 class="font-weight-bold text-center text-lg-left text-second">Elevate Your Time
+									Management with
+									Demo Calendarz!</h2>
+							</div>
+							<p>Experience seamless scheduling with Demo Calendarz. Our intuitive design, customizable
+								themes, device sync, advanced reminders, collaborative tools, and robust security ensure
+								you stay organized, productive, and secure. Transform your time management today!</p>
+							<ul class="list-unstyled row">
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">Intuitive Design</span>
+								</li>
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">Customizable Themes</span>
+								</li>
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">High-Quality Materials</span>
+								</li>
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">Advanced Layouts</span>
+								</li>
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">Eco-Friendly Options</span>
+								</li>
+								<li class="col-12 col-sm-6 d-flex align-items-center mb-2">
+									<i class="bi bi-check-circle-fill text-success mr-3 fs-6"></i>
+									<span class="flex-grow-1">Secure Binding</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- couter section starts -->
+	<section class="counter-area py-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-5">
+					<div class="counter-text">
+						<h2 class="text-second font-weight-bold text-center text-lg-left">We Have Achieved Multiple
+							Milestones in Calendar
+							Manufacturing</h2>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-sm-4 col-lg-4">
+							<div class="counter-item">
+								<h3>
+									<span class="odometer font-weight-bold" data-count="5000">0</span><span>+</span>
+								</h3>
+								<p class="text-second font-weight-bold">Calendars Produced</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-lg-4">
+							<div class="counter-item">
+								<h3>
+									<span class="odometer" data-count="1200">0</span><span>+</span>
+								</h3>
+								<p class="text-second font-weight-bold">Satisfied Clients</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-lg-4">
+							<div class="counter-item">
+								<h3>
+									<span class="odometer" data-count="300">0</span><span>+</span>
+								</h3>
+								<p class="text-second font-weight-bold">Design Variations</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- our products section -->
+	<section class="products-area py-5">
+		<div class="container">
+			<div class="section-title text-center mb-5">
+				<span class="sub-title text-light">Our Products</span>
+				<h2 class="text-second">Explore Our Wide Range of <span>Calendars</span></h2>
+			</div>
+			<div class="row">
+				<!-- Daily Calendars -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item daily-calendar text-center p-4 shadow-sm rounded">
+						<i class="bi bi-calendar-day text-primary mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Daily Calendars</a></h3>
+						<p>Stay organized with our detailed daily calendars designed for productivity.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+
+				</div>
+				<!-- Monthly Sheet -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item monthly-sheet text-center p-4 shadow-sm rounded">
+						<i class="bi bi-calendar-month text-success mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Monthly Sheet</a></h3>
+						<p>Track important dates and events with our easy-to-use monthly sheets.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+				</div>
+				<!-- Yearly Planner Calendar -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item yearly-planner text-center p-4 shadow-sm rounded">
+						<i class="bi bi-calendar3 text-warning mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Yearly Calendar</a></h3>
+						<p>Plan your year ahead with our comprehensive yearly planner calendars.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+				</div>
+				<!-- Desk Calendars -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item desk-calendar text-center p-4 shadow-sm rounded">
+						<i class="bi bi-display text-info mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Desk Calendars</a></h3>
+						<p>Compact and stylish calendars perfect for any workspace.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+				</div>
+				<!-- Personal Pocket Calendars -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item pocket-calendar text-center p-4 shadow-sm rounded">
+						<i class="bi bi-wallet2 text-secondary mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Pocket Calendars</a></h3>
+						<p>Portable calendars to help you stay on track wherever you go.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+				</div>
+				<!-- Magnetic Fridge Calendars -->
+				<div class="col-sm-6 col-lg-4 mb-4">
+					<div class="product-item fridge-calendar text-center p-4 shadow-sm rounded">
+						<i class="bi bi-magnet text-danger mb-3" style="font-size: 2rem;"></i>
+						<h3><a href="product-details.html">Fridge Calendars</a></h3>
+						<p>Convenient magnetic calendars that stick to your fridge for easy access.</p>
+						<a class="product-link" href="products.php">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 
 
@@ -128,40 +294,17 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/gsap.min.js"></script>
 	<script src="js/wow.js"></script>
 	<script>
 		new WOW().init();
 	</script>
 
 	<script>
-		// var counted = 0;
-		// $(window).scroll(function () {
-		// 	var oTop = $('#stats').offset().top - window.innerHeight;
-		// 	if (counted == 0 && $(window).scrollTop() > oTop) {
-		// 		$('.count').each(function () {
-		// 			var $this = $(this),
-		// 				countTo = $this.attr('data-count');
-		// 			$({ countNum: $this.text() }).animate(
-		// 				{ countNum: countTo },
-		// 				{
-		// 					duration: 2000,
-		// 					easing: 'swing',
-		// 					step: function () {
-		// 						$this.text(Math.floor(this.countNum));
-		// 					},
-		// 					complete: function () {
-		// 						$this.text(this.countNum);
-		// 					}
-		// 				}
-		// 			);
-		// 		});
-		// 		counted = 1;
-		// 	}
-		// });
+
+
 	</script>
 	<script src="./js/script.js"></script>
-	<!-- <?php include 'footer.php'; ?> -->
+	<?php include "footer.php"; ?>
 </body>
 
 </html>

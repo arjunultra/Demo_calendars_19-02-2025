@@ -3,22 +3,23 @@
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Demo Printz | Online Offset Printing Sale | Sivakasi Offset Printers | Printing Discount Sale |
-        Sivakasi Printers</title>
+    <title>Demo Calendarz | Calendar Printing and Sales | Sivakasi Calendar Designers and Printers | Calendar Discount
+        Sale |
+        Sivakasi Calendar Designing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Demo Printz">
+    <meta property="og:title" content="Demo Calendarz">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Demo Printz">
-    <meta property="og:url" content="https://www.demoprintz.com">
-    <meta property="og:image" content="https://www.demoprintz.com/images/android-icon-192x192.png">
+    <meta property="og:site_name" content="Demo Calendarz">
+    <meta property="og:url" content="https://www.democalendarz.com">
+    <meta property="og:image" content="https://www.democalendarz.com/images/android-icon-192x192.png">
     <meta name="keywords"
-        content="Demo Printz, offset printing, best printing services, printing discount sale, sivakasi printing online">
+        content="Demo Calendarz, Calendar Designing and printing, Best calendar printing services, calendar discount sale, sivakasi calendar sale online">
     <meta property="og:description" name="description"
-        content="We are one of the leading wholesale offset printers and dealer in printing allied works. We welcome you to the coolest printing site on the WEB, where you can get all top quality prints & other printing-related products.">
+        content="We are one of the leading wholesale calendar designers and printers and dealer in printing allied works. We welcome you to the coolest calendar site on the WEB, where you can get all top quality calendar prints & other printing-related products.">
     <meta name="robots" content="all">
     <meta name="revisit-after" content="10 Days">
-    <meta name="copyright" content="Demo Printz">
+    <meta name="copyright" content="Demo Calendarz">
     <meta name="language" content="English">
     <meta name="distribution" content="Global">
     <meta name="web_author" content="srisoftwarez.com">
@@ -26,17 +27,13 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
     <link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- Keep this before style.css -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Should be last -->
+
 
 </head>
 <!-- index-carousel  -->
@@ -44,230 +41,297 @@
 <!-- index-carousel end -->
 
 <body itemscope itemtype="http://schema.org/WebPage">
+
     <?php include "header.php"; ?>
-    <section class="about-intro">
-        <div class="about-banner d-flex flex-column align-items-center justify-content-center">
-            <div class="text-container text-white font-weight-bold wow slideInLeft">
-                <h1 class="text-center heading1"><span class="arial font-weight-bold text-main">Demo Printz - About
-                        Us</span>
-                </h1>
-                <p class="heading4 text-center p-3">Turning Ideas into Impressions - Your Trusted Printing Partner!</p>
-
-            </div>
+    <section class="about-banner">
+        <div class="d-flex flex-column align-items-center justify-content-center">
         </div>
     </section>
 
-    <section class="about-first">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-6">
-                    <div class="wow zoomInLeft p-5 position-relative about-imgbg">
-                        <img src="images/printing-16.webp" alt="about" title="Demo Printz"
-                            class="img-fluid first-image">
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-6 p-5 wow zoomInRight">
-                    <h2 class="text-main text-center text-uppercase font-weight-bold">We are Industry Innovators</h2>
-                    <p>At Demo Printz, we specialize in providing top-notch offset printing services tailored to meet
-                        the diverse needs of our clients. Established with a passion for delivering high-quality prints,
-                        we have positioned ourselves as a trusted partner for businesses, creatives, and individuals
-                        seeking impeccable printing solutions.</p>
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <h5 class="text-main text-uppercase font-weight-bold text-center">Our Mission</h5>
-                            <p>To consistently deliver superior printing services that exceed our clients' expectations
-                                .</p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <h5 class="text-main text-center text-uppercase font-weight-bold">Our Vision</h5>
-                            <p>To consistently deliver superior printing services that exceed our clients' expectations!
-                            </p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-4">
-                            <h5 class="text-main text-center text-uppercase font-weight-bold">Our Services</h5>
-                            <p>Offset Printing Our core service, offset printing, ensures vibrant and precise prints.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h5 class="text-main text-uppercase font-weight-bold">Our
-                                Values</h5>
-                            <p>Innovation, quality, and reliability define Demo Printz's customer-centric printing
-                                excellence.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-    <section class="about-two pad">
+    <section class="about-section py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
-                    <h2 class="text-white mb-4 font-weight-bold">Boost Efficiency &amp; Save Money</h2>
-                    <div class="d-flex align-items-center text-white mb-3 hvr-icon-fade">
-                        <div class="mr-3">
-                            <i class="bi bi-check-square-fill hvr-icon"></i>
+                <!-- Calendar Images Section -->
+                <div class="col-lg-6">
+                    <div class="calendar-images">
+                        <div class="image-feature reveal image-animation">
+                            <img src="./images/12.webp" alt="Premium Calendar Design" class="img-fluid">
                         </div>
-                        <span>Expertise &amp; Experience</span>
-                    </div>
-                    <!-- second -->
-                    <div class="d-flex align-items-center text-white mb-3 hvr-icon-fade">
-                        <div class="mr-3">
-                            <i class="bi bi-check-square-fill hvr-icon"></i>
-                        </div>
-                        <span>Latest Technology &amp; Experienced Workers</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-3 hvr-icon-fade">
-                        <div class="mr-3">
-                            <i class="bi bi-check-square-fill hvr-icon"></i>
-                        </div>
-                        <span>Custom Solutions &amp; Customized Gifts</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-3 hvr-icon-fade">
-                        <div class="mr-3">
-                            <i class="bi bi-check-square-fill hvr-icon"></i>
-                        </div>
-                        <span>Quality &amp; Assurance</span>
-                    </div>
-                    <div class="d-flex align-items-center text-white mb-5 hvr-icon-fade">
-                        <div class="mr-3">
-                            <i class="bi bi-check-square-fill hvr-icon"></i>
-                        </div>
-                        <span>Beautiful &amp; Colourful</span>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 hvr-grow mb-5">
-                    <div class="image-container image-bg">
-                        <img class="img-fluid" src="images/pdtimg-3.png" alt="Demo Printz" title="Demo Printz">
-                    </div>
-                    <div class="image-container height-increase img-two image-bg">
-                        <img class="img-fluid" src="images/pdtimg-4.webp" alt="Demo Printz" title="Demo Printz">
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 col-lg-6 wow slideInLeft hvr-grow px-5">
-                        <img class="img-fluid" src="./images/printing-17.webp" alt="Demo Printz" title="Demo Printz">
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 wow slideInRight p-5">
-                        <h2 class="font-weight-bold arial">We Achieve Pixel Perfect Print!</h2>
-                        <p>At Demo Printz, we are dedicated to providing top-notch offset printing services that ensure
-                            the highest quality and precision for all your printing needs. From vibrant brochures and
-                            eye-catching posters to professional business cards and sleek catalogs, we take pride in
-                            delivering impeccable results that exceed your expectations.</p>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <section class="about-three brands-section">
-        <div class="container pad">
-            <div class="row align-items-center text-center">
-                <div class="col-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="0.5s">
-                    <div class="">
-                        <div class="">
-                            <h3 class="text-secondary h2">Our clients</h3>
-                            <h1 class="text-main font-weight-bold h1">Pleasure to work with
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 wow fadeInRight" data-wow-delay="0.5s">
-                    <div class="brands">
-                        <div class="">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/google.png" alt="google" class="img-fluid">
-                                    </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mt-4 reveal image-animation">
+                                    <img src="./images/10.webp" alt="Monthly Planner Sample" class="img-fluid">
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/facebook.png" alt="facebook" class="img-fluid">
-                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mt-4 reveal image-animation">
+                                    <img src="./images/4.webp" alt="Desk Calendar Sample" class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                        <div class="">
-                            <div class="row my-0 my-lg-3">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/netflix.png" alt="netflix" class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/lenovo.png" alt="lenovo" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Call to Action Button -->
+                        <div class="order-calendar-btn mt-4 text-center">
+                            <a href="products.php" class="btn btn-warning mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 200 200"
+                                    fill="none" class="calendar-svg">
+                                    <path
+                                        d="M93.8771 2.53621C96.8982 1.28483 98.4087 0.659138 100 0.659138C101.591 0.659138 103.102 1.28483 106.123 2.5362L164.588 26.7531C167.609 28.0045 169.119 28.6302 170.245 29.7554C171.37 30.8806 171.995 32.3912 173.247 35.4123L197.464 93.8771C198.715 96.8982 199.341 98.4087 199.341 100C199.341 101.591 198.715 103.102 197.464 106.123L173.247 164.588C171.995 167.609 171.37 169.119 170.245 170.245C169.119 171.37 167.609 171.995 164.588 173.247L106.123 197.464C103.102 198.715 101.591 199.341 100 199.341C98.4087 199.341 96.8982 198.715 93.8771 197.464L35.4123 173.247C32.3912 171.995 30.8806 171.37 29.7554 170.245C28.6302 169.119 28.0045 167.609 26.7531 164.588L2.53621 106.123C1.28483 103.102 0.659138 101.591 0.659138 100C0.659138 98.4087 1.28483 96.8982 2.5362 93.8771L26.7531 35.4123C28.0045 32.3912 28.6302 30.8806 29.7554 29.7554C30.8806 28.6302 32.3912 28.0045 35.4123 26.7531L93.8771 2.53621Z"
+                                        fill="#5b288a"></path>
+                                </svg>
+
+                                <i class="bi bi-arrow-up-right-circle-fill text-light"> Order Now</i>
+                            </a>
                         </div>
-                        <div class="u-size-20">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/airbnb.png" alt="airbnb" class="img-fluid">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class=""><img src="./images/dropbox.png" alt="dropbox" class="img-fluid">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="about-parallax">
-        <div class="container-fluid about-parallax">
-            <div class="row">
-                <div class="col-12 col-lg-12 col-md-12  text-center" data-wow-duration="1.5s" data-wow-delay=".5s">
-                    <h2 class="text-pink arial heading1 wow jackInTheBox text-main font-weight-bold">Think Print <span
-                            class="text-white">!</span> Think
-                        Demo Printz...</h2>
-                    <h4 class="text-white pb-3 helvetica wow slideInLeft">We Use only High Quality Materials, Give us
-                        a try! </h4>
-                    <div>
-                        <a href="contact.php"
-                            class="wow slideInUp btn btn-lg btn-outline-main px-3 py-2 paralbtn btn-5">Contact
-                            Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about last section -->
-    <section class="about-last" id="">
-        <div class="container pad">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-12 col-md-6 col-lg-6">
-                    <h2 class="display-4 text-main font-weight-bold">
-                        Real-world inspirations printed just for you
-                    </h2>
-                    <p>Demo Printz excels in business card design, brochures, flyers, posters, corrugation box printing,
-                        and calendar creation. With top-notch quality and exceptional customer service, satisfaction is
-                        always guaranteed. Experience the Demo Printz difference!</p>
-                    <a class="btn btn-outline-main-lightbg btn-lg my-3 mb-5 d-block d-md-inline-block"
-                        href="services.php">View Services</a>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="image-container image-bg mb-5">
-                        <img class="img-fluid" src="images/gallery-12.webp" alt="Demo Printz" title="Demo Printz">
-                    </div>
-                    <div class="image-container image-bg">
-                        <img class="img-fluid" src="images/gallery-11.webp" alt="Demo Printz" title="Demo Printz">
                     </div>
                 </div>
 
+                <!-- About Content Section -->
+                <div class="col-lg-6">
+                    <div class="about-calendar-content">
+                        <h5 class="section-subtitle text-uppercase text-main">About Our Calendars</h5>
+                        <h2 class="section-title text-second font-weight-bold">Crafting Timeless Calendars for Every
+                            Occasion</h2>
+                        <p>Our calendars are designed with precision and creativity, perfect for personal use, corporate
+                            gifts, or promotional branding. From daily planners to custom magnetic fridge calendars, we
+                            offer a wide range of styles and formats.</p>
+                        <div class="calendar-stats d-flex justify-content-between mt-4">
+                            <div class="stat-item text-center">
+                                <h2 class="text-main font-weight-bold"><span class="odometer" data-count="500">0</span>+
+                                </h2>
+                                <p>Custom Designs</p>
+                            </div>
+                            <div class="stat-item text-center">
+                                <h2 class="text-main font-weight-bold"><span class="odometer"
+                                        data-count="1000">0</span>+</h2>
+                                <p>Satisfied Clients</p>
+                            </div>
+                            <div class="stat-item text-center border-0">
+                                <h2 class="text-main font-weight-bold"><span class="odometer"
+                                        data-count="50000">0</span>+</h2>
+                                <p>Calendars Delivered</p>
+                            </div>
+                        </div>
+
+
+                        <div class="mt-4">
+                            <a href="/contact" class="theme-btn1">View Our Products</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- about-second -->
+    <section class="service-section py-5 dark-bg position-relative">
+        <!-- Decorative Shapes -->
+        <div class="position-absolute w-100 top-0">
+            <img src="images/shape.png" alt="Decorative Shape" class="img-fluid">
+        </div>
+        <div class="position-absolute w-100 bottom-0">
+            <img src="assets/img/service/bottom-shape.png" alt="Bottom Shape" class="img-fluid">
+        </div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+                <h5 class="text-uppercase text-main">Our Premium Services</h5>
+                <h2 class="font-weight-bold text-second">Expert Calendar Solutions for Every Need</h2>
+                <a href="gallery.php" class="theme-btn">
+                    View Our gallery
+                </a>
+            </div>
+
+            <!-- Service Cards -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-layout-text-window-reverse display-4 text-success"></i>
+                            <h5 class="mt-3 font-weight-bold">Custom Calendar Design</h5>
+                            <p>We create personalized calendar designs tailored to reflect your brand's unique style.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <a href="products.php" class="theme-btn d-block">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-printer display-4 text-danger"></i>
+                            <h5 class="mt-3 font-weight-bold">High-Quality Printing</h5>
+                            <p>We offer premium printing services for wall, desk, and pocket calendars with vibrant
+                                finishes.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-success">
+                            <a href="products.php" class="theme-btn mx-auto d-block text-center">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="bi bi-truck display-4 text-primary"></i>
+                            <h5 class="mt-3 font-weight-bold">Bulk Orders & Delivery</h5>
+                            <p>Efficient bulk order management with nationwide delivery for businesses of all sizes.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 text-center">
+                            <a href="products.php" class="theme-btn d-block">
+                                Learn More <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about three -->
+    <section class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Calendar Images Section -->
+                <div class="col-lg-6">
+                    <div class="calendar-images position-relative">
+                        <div class="img-main mb-4">
+                            <img src="./images/custom-calendar.webp" alt="Custom Calendars" class="img-fluid rounded">
+                        </div>
+                        <div class="img-secondary d-flex">
+                            <img src="./images/desk-calendar-2.webp" alt="Desk Calendars"
+                                class="img-fluid rounded mr-3">
+                            <img src="./images/12.webp" alt="Wall Calendars" class="img-fluid rounded">
+                        </div>
+                        <div class="experience-counter position-absolute bg-primary text-white text-center p-3 rounded">
+                            <h3 class="mb-0">25+</h3>
+                            <p class="mb-0">Years of Crafting <br> Premium Calendars</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Content Section -->
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h6 class="text-main text-uppercase">Contact Us</h6>
+                        <h2 class="mb-4">
+                            Elevate Your Brand with Custom Calendar Solutions
+                        </h2>
+                        <p class="mb-4">
+                            We specialize in creating high-quality custom calendars designed to promote your brand
+                            year-round. From wall calendars to desk planners, we offer tailored solutions to meet your
+                            business needs.
+                        </p>
+
+                        <!-- Progress Bars for Services -->
+                        <div class="progress-group mb-4">
+                            <div class="mb-3">
+                                <h6 class="d-flex justify-content-between">
+                                    Custom Calendar Design
+                                    <span>95%</span>
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                        aria-valuemax="100" data-progress="95"></div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <h6 class="d-flex justify-content-between">
+                                    Bulk Order Fulfillment
+                                    <span>90%</span>
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                        aria-valuemax="100" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Call-to-Action Button -->
+                        <a href="contact.php" class="theme-btn">
+                            Get A Custom Quote <i class="bi bi-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about four -->
+    <section class="infra-section py-5">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <!-- Container with background image -->
+                    <div
+                        class="text-container d-flex flex-column justify-content-center align-items-center text-center text-lg-left text-light p-5">
+                        <h3 class="text-uppercase font-weight-bold mb-4">
+                            Excellence in Calendar Craftsmanship
+                        </h3>
+                        <p class="text-light px-3">
+                            At <strong class="text-second">Demo Calendarz</strong>, our cutting-edge manufacturing
+                            facility brings your
+                            calendar ideas to life.
+                            From personalized desk calendars to large-format wall planners, our advanced printing
+                            technology ensures
+                            precision, durability, and top-tier quality for every project.
+                        </p>
+                        <p class="text-light px-3 text-center text-lg-left">
+                            Our infrastructure is designed to handle bulk orders with ease while maintaining
+                            customization flexibility for
+                            all your branding needs.
+                        </p>
+
+                        <a class="theme-btn1" href="products.php">
+                            View Products <i class="bi bi-arrow-right ml-2"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- footer -->
-    <?php include "footer.php"; ?>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
-    <div class="custom-cursor"></div>
-    <div class="click-effect"></div>
+    <script>
+        $(document).ready(function () {
+            function animateProgressBars() {
+                $('.progress-bar').each(function () {
+                    var bar = $(this);
+                    var progress = bar.data('progress');
+
+                    // Check if the progress bar is visible in the viewport
+                    if (bar.offset().top < $(window).scrollTop() + $(window).height() - 100) {
+                        bar.css('width', progress + '%');
+                    }
+                });
+            }
+
+            // Trigger animation on scroll and page load
+            $(window).on('scroll', animateProgressBars);
+            animateProgressBars();
+        });
+
+
+    </script>
+    <script src="./js/script.js"></script>
+    <?php include "footer.php"; ?>
 </body>
 
 </html>

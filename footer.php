@@ -1,72 +1,148 @@
-<footer class="footer wow slideInUp  pt-md-5">
+<footer class="footer-section py-5 bg-light text-dark">
     <div class="container">
-        <div class="footer-top pt-5">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-logo">
-                        <a href="index.php"><img src="images/logo.png" class="img-fluid w-100" alt="Demo Printz"
-                                title="Demo Printz"></a>
-                        <p class="helvetica text-white">We are supply all kinds of packaging materials with/without
-                            printing.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 lst">
-                    <h4 class="arial font-weight-bold text-main pb-3">Contact Us</h4>
-                    <h5 class="arial text-main font-weight-bold">Address</h5>
-                    <ul class="fullpad">
-                        <li class="helvetica text-white"><i class="bi bi-geo-alt"></i> &nbsp; Sivakasi, Tamil Nadu
-                            626123</li>
+        <div class="row">
+            <!-- Logo and About Section -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-logo-area">
+                    <img src="./images/logo.png" alt="Eventify Logo" class="img-fluid mb-3">
+                    <p>
+                        We are committed to creating a platform where business leaders, innovators, and professionals
+                        can come together to exchange ideas.
+                    </p>
+                    <ul class="list-inline mt-3">
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
                     </ul>
-                    <h5 class="arial pt-3 text-main font-weight-bold">Mobile</h5>
-                    <ul class="fullpad">
-                        <li class="helvetica text-white pfnt"><i class="bi bi-telephone"></i> &nbsp; +91 99999 99999
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6 mb-4">
+                <div class="footer-links">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
+                                href="index.php">Home</a></li>
+                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
+                                href="about.php">About</a></li>
+                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
+                                href="products.php">Products</a></li>
+                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
+                                href="gallery.php">Gallery</a>
+                        </li>
+                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
+                                href="contact.php">Contact</a>
                         </li>
                     </ul>
-                    <h5 class="arial pt-3 text-main font-weight-bold">Email</h5>
-                    <ul class="fullpad">
-                        <li class="helvetica text-white pfnt"><i class="bi bi-envelope"></i> &nbsp;
-                            demoprintz@gmail.com</li>
-                    </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 lst">
-                    <h4 class="arial text-main font-weight-bold"> Quick Links </h4>
-                    <ul class="helvetica pl-0 quick-link">
-                        <li class="pt-2 mb-3"><a href="index.php"><i class="bi bi-caret-right-fill footclr"></i> <span
-                                    class="footclr1">Home</span></a></li>
-                        <li class="pt-2 mb-3"><a href="about.php"><i class="bi bi-caret-right-fill footclr"></i> <span
-                                    class="footclr1">About</span></a></li>
-                        <li class="pt-2 mb-3"><a href="services.php"><i class="bi bi-caret-right-fill footclr"></i>
-                                <span class="footclr1">Services</span></a></li>
-                        <li class="pt-2 mb-3"><a href="gallery.php"><i class="bi bi-caret-right-fill footclr"></i> <span
-                                    class="footclr1">Gallery</span></a></li>
-                        <li class="pt-2 mb-3"><a href="contact.php"><i class="bi bi-caret-right-fill footclr"></i> <span
-                                    class="footclr1">Contact</span></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="arial font-weight-bold text-main pb-3">Working Hours</h4>
-                    <ul class="fullpad">
-                        <li class="helvetica text-white mb-3"><i class="bi bi-clock"></i> &nbsp;
-                            Mon - Fri: 9:00 AM to
-                            6:00 PM</li>
-                        <li class="helvetica text-white pfnt"><i class="bi bi-clock"></i> &nbsp;
-                            Saturday: 9:00 AM to 1:00 PM</li>
-                        <li class="helvetica text-white mt-3 text-center">Sunday: Holiday</li>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="footer-contact">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <ul class="list-unstyled text-dark">
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="flex-shrink-0 mr-2">
+                                <img src="./images/phn1.svg" alt="phone icon" class="img-fluid"
+                                    style="width: 24px; height: 24px;">
+                            </span>
+                            <a class="text-dark flex-grow-1" href="tel:+11234567890">+91 123 456 7890</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="flex-shrink-0 mr-2">
+                                <img src="./images/location1.svg" alt="location pin" class="img-fluid"
+                                    style="width: 24px; height: 24px;">
+                            </span>
+                            <a class="text-dark flex-grow-1" href="#">Sivakasi</a>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <span class="flex-shrink-0 mr-2">
+                                <img src="./images/mail1.svg" alt="mail icon" class="img-fluid"
+                                    style="width: 24px; height: 24px;">
+                            </span>
+                            <a class="text-dark flex-grow-1"
+                                href="mailto:contact@democalendarz.com">contact@democalendarz.com</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom d-flex justify-content-between">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 text-center text-white">
-                        <p class="helvetica pfnt">Copyright © 2025, Demo Printz All rights reserved</p>
+
+
+            <!-- Event Gallery -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="footer-gallery">
+                    <h5 class="text-uppercase">Our Gallery</h5>
+                    <div class="row no-gutters mt-3">
+                        <!-- Loop this block for gallery images -->
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/pocket-calendar.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/poster-calendar.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/service-11.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/desk-calendar.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/fridge-calendar.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-2">
+                            <div class="gallery-img position-relative">
+                                <img src="./images/pocket-calendar.webp" alt="Gallery Image"
+                                    class="img-fluid rounded equal-img">
+                                <div class="gallery-overlay d-flex align-items-center justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+        <!-- Copyright Section -->
+        <div class="container-fluid">
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0 text-center">© Copyright 2025 - Democalendarz. All Rights Reserved. Developed by <a
+                            class="text-second" href="https://www.srisoftwarez.com" target="_blank">Sri Softwarez</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 </footer>

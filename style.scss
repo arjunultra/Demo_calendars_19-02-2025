@@ -1,12 +1,20 @@
+$transition: 0.5s all ease;
+$primary-color: red;
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 :root {
-  --main-color: #ff7e6b;
-  --second-color: #5b288a;
+  --main-color: #5b288a;
+  --second-color: #ff7e6b;
   --light-color: #b5ef8a;
   --white: #fef9ff;
   --black: #000000;
-  --dark-bg: #ef476f;
+  --dark-bg: #020e1d;
   --product-shadow: rgba(0, 0, 0, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -18,7 +26,7 @@ h6 {
 }
 
 body {
-  cursor: url("../images/cursor.png") 16 16, auto !important;
+  cursor: url("../images/cursor.cur") 16 16, auto !important;
 }
 p {
   font-family: "Lucida Handwriting", "Brush Script MT", cursive;
@@ -82,6 +90,7 @@ li {
     border-color: black;
   }
 }
+
 .fullpad {
   padding: 0 !important;
   margin: 0 !important;
@@ -128,6 +137,14 @@ li {
   color: #000000;
 }
 // header
+.dropdown-menu {
+  max-height: none; // Remove any max-height restrictions
+  overflow: visible; // Allow default overflow
+  border-radius: 0.25rem; // Bootstrap default rounded corners
+  box-shadow: none; // Remove any custom shadow
+  padding: 0.5rem 0; // Restore Bootstrap padding
+}
+
 .main-header .logo-area {
   position: relative;
   transition: all 500ms ease;
@@ -180,9 +197,9 @@ a.nav-link {
       margin-top: 20px;
 
       .product-title {
-        font-size: 24px;
+        font-size: 2rem;
         font-weight: bold;
-        color: #333;
+        color: var(--second-color);
       }
 
       .product-description {
@@ -198,9 +215,9 @@ a.nav-link {
 
   .right-content {
     .section-title {
-      font-size: 28px;
+      font-size: 2.5rem;
       font-weight: bold;
-      color: #222;
+      color: var(--second-color);
     }
 
     .section-description {
@@ -271,7 +288,560 @@ a.nav-link {
     }
   }
 }
+// second-index section
+/*-- Job --*/
+.job-area {
+  background-color: #020e1d;
+  position: relative;
 
+  .job-shape {
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    animation: move-forever1 10s infinite linear alternate;
+    img {
+      width: 10em;
+    }
+  }
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+
+    .col-lg-6 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .job-img {
+    background-image: url("../images/index-calender-2.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: none;
+    }
+  }
+  .job-content {
+    padding: 50px;
+    max-width: 695px;
+
+    .section-title {
+      text-align: left;
+      position: relative;
+      z-index: 1;
+
+      h2 {
+        color: var(--white);
+      }
+    }
+    p {
+      margin-bottom: 30px;
+      color: var(--white);
+      z-index: 1;
+      position: relative;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+        list-style-type: none;
+        display: inline-block;
+        background-color: #152130;
+        border-radius: 8px;
+        color: var(--white);
+        font-weight: 500;
+        font-size: 17px;
+        max-width: 230px;
+        padding: 10px 15px 15px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+
+        &:before {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 0%;
+          left: 0;
+          bottom: 0;
+          background-color: var(--main-color);
+          transition: $transition;
+          border-radius: 8px;
+          z-index: -1;
+        }
+        i {
+          display: inline-block;
+          font-size: 24px;
+          position: relative;
+          top: 4px;
+        }
+        &:hover {
+          &:before {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+/*-- End Job --*/
+// third index - counter section
+/*-- Counter --*/
+.counter-area {
+  background-color: var(--white);
+  padding-bottom: 140px;
+
+  .counter-text {
+    margin-bottom: 30px;
+
+    h2 {
+      margin-bottom: 0;
+      color: var(--white);
+      font-weight: 600;
+      font-size: 38px;
+    }
+  }
+}
+.counter-item {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 2px dotted var(--second-color);
+  text-align: center;
+  padding: 25px 10px 22px;
+
+  h3 {
+    margin-bottom: 10px;
+
+    span {
+      color: var(--main-color);
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 0;
+  }
+}
+/*-- End Counter --*/
+// index products section
+/*-- Our Products --*/
+.products-area {
+  background-color: #020e1d;
+
+  .section-title {
+    h2 {
+      max-width: 500px;
+      margin: 0 auto;
+      color: var(--white);
+    }
+
+    .sub-title {
+      color: var(--second-color);
+      font-weight: 600;
+    }
+  }
+
+  .product-item {
+    background-color: #061b2f;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 17em;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1;
+
+    // Background overlay effect
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 1;
+    }
+
+    // Hover effects
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+      &::before {
+        opacity: 0.2;
+      }
+
+      .product-link {
+        opacity: 1;
+        visibility: visible;
+        background-color: var(--main-color);
+        color: var(--white);
+        padding: 6px 20px;
+        border-radius: 5px;
+        border: 2px solid var(--main-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+        display: inline-block;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+      }
+    }
+
+    // Circular icon style without breaking layout
+    i {
+      border: 1px solid var(--white);
+      width: 2em;
+      height: 2em;
+      display: flex; // Flexbox for centering
+      align-items: center; // Vertical centering
+      justify-content: center; // Horizontal centering
+      border-radius: 50%;
+      color: var(--white);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      margin: 0 auto; // Center the icon container itself
+
+      &:hover {
+        background-color: var(--main-color);
+        color: var(--white);
+      }
+    }
+
+    h3 {
+      margin-top: 1em;
+
+      a {
+        color: var(--white);
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--second-color);
+        }
+      }
+    }
+
+    p {
+      color: var(--light-color);
+    }
+
+    .product-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--second-color);
+      font-weight: 500;
+      text-decoration: none;
+      padding: 20px 15px;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      opacity: 0;
+      visibility: hidden; // Hidden by default
+      z-index: 2;
+
+      &:hover {
+        background-color: var(--main-color);
+        color: var(--white);
+        border-color: var(--main-color);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  // Background images for specific products using ::before
+  .daily-calendar::before {
+    background-image: url("../images/daily-calendar.webp");
+  }
+
+  .monthly-sheet::before {
+    background-image: url("../images/service-11.webp");
+  }
+
+  .yearly-planner::before {
+    background-image: url("../images/yearly-planner.webp");
+  }
+
+  .desk-calendar::before {
+    background-image: url("../images/desk-calendar.webp");
+  }
+
+  .pocket-calendar::before {
+    background-image: url("../images/pocket-calendar.webp");
+  }
+
+  .fridge-calendar::before {
+    background-image: url("../images/fridge-calendar.webp");
+  }
+}
+// About page
+section.about-banner {
+  background-image: url("../images/about-banner.webp");
+  background-position: center;
+  background-size: contain;
+  height: 20em;
+}
+.about-section {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding: 3rem 0;
+
+  .calendar-images {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+    .image-feature img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .order-calendar-btn {
+      position: absolute;
+      top: 68%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      overflow: hidden;
+      padding: 1em 2em;
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        transform-origin: center;
+        width: 190px;
+        height: 190px;
+        clip-path: polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%);
+        background-color: var(--main-color);
+        color: var(--white);
+        position: relative;
+
+        svg {
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+
+        i {
+          position: absolute;
+          bottom: 29%;
+          left: 50%;
+          transform: translateX(-50%);
+          color: #000;
+          font-size: 1.2rem;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          overflow: hidden;
+        }
+      }
+    }
+  }
+
+  .about-calendar-content {
+    padding-left: 30px;
+
+    @media (max-width: 767px) {
+      padding-left: 0;
+      margin-top: 30px;
+    }
+
+    .calendar-stats {
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .stat-item {
+        border-right: 1px solid #e6e8e8;
+        padding: 0 30px;
+
+        &:last-child {
+          border: none;
+        }
+
+        @media (max-width: 767px) {
+          padding: 0 5px;
+          border: none;
+        }
+
+        h2 {
+          font-weight: 700;
+        }
+
+        p {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    .btn-primary {
+      margin-top: 1.5rem;
+    }
+  }
+}
+// about four
+// about page four
+section.infra-section {
+  .container-fluid {
+    background-image: url("../images/infra-bg.webp");
+    background-color: #00000080;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 0;
+    width: auto;
+    position: relative;
+
+    .text-container {
+      h3 {
+        color: var(--second-color);
+      }
+      p {
+        max-width: 85%;
+      }
+    }
+  }
+}
+// gallery page
+section.gallery {
+  .gallery-banner {
+    background-image: url("../images/gallery-banner.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh; // Responsive height based on viewport
+    width: 100%;
+
+    @media only screen and (max-width: 768px) {
+      height: 40vh; // Smaller height for mobile
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      height: 50vh; // Adjust for tablets
+    }
+  }
+}
+
+section.mygallery {
+  background-color: var(--dark-bg);
+  overflow: hidden;
+  .custom-card {
+    height: 30em;
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      height: auto; // Adjust for tablets
+    }
+    @media only screen and (max-width: 768px) {
+      height: auto; // Smaller height for mobile
+    }
+  }
+}
+// contact page
+.contactbg {
+  .contact-banner {
+    background-image: url("../images/contact-banner.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    @media only screen and (max-width: 768px) {
+      height: 40vh; // Smaller height for mobile
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      height: 50vh; // Adjust for tablets
+    }
+  }
+}
+.contact3 {
+  font-size: 2.5rem; // Increase the icon size
+  color: #333; // You can adjust the color as needed
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  background-color: #f5f5f5; // Optional background
+  border-radius: 50%; // Makes the icon circular
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Optional shadow
+}
+footer {
+  .equal-img {
+    width: 100%;
+    height: 100px; // Fixed height for all images
+    object-fit: cover; // Ensures images cover the area without distortion
+    border-radius: 8px;
+  }
+
+  .gallery-img {
+    position: relative;
+    overflow: hidden;
+
+    .gallery-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+
+      a {
+        color: #fff;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover .gallery-overlay {
+      opacity: 1;
+    }
+  }
+
+  // Responsiveness
+  @media (max-width: 768px) {
+    .equal-img {
+      height: 80px; // Smaller images for mobile
+    }
+  }
+
+  @media (max-width: 576px) {
+    .equal-img {
+      height: 60px; // Even smaller on very small screens
+    }
+  }
+}
+// index product section ends
 @keyframes move-forever1 {
   0% {
     transform: translate(85px, 0%);
@@ -329,12 +899,20 @@ a.nav-link {
   .notfound .notfound-404 {
     height: 142px;
   }
+  // index page
+  .main-header .logo-area {
+    background: linear-gradient(144.6deg, var(--second-color), 100%, #fff 0%);
+  }
 }
 
 // tablet
 @media (min-width: 768px) and (max-width: 991.98px) {
   .pad {
     padding: 40px 0;
+  }
+  // index page
+  .main-header .logo-area {
+    background: linear-gradient(144.6deg, var(--second-color), 0%, #fff 100%);
   }
 }
 
@@ -429,6 +1007,9 @@ a.nav-link {
 .bg-main {
   background-color: var(--main-color) !important;
 }
+.dark-bg {
+  background-color: var(--dark-bg) !important;
+}
 .bg-light-main {
   background-color: var(--light-main) !important;
 }
@@ -484,4 +1065,204 @@ a.nav-link {
   display: block;
   transform: skew(-30deg);
   margin: 0 auto;
+}
+.image-animation {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-animation:after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 1;
+}
+
+.image-animation:hover:after {
+  height: 250%;
+  transition: all 0.6s linear;
+  background-color: transparent;
+}
+
+.reveal {
+  position: relative;
+  display: -ms-inline-flexbox;
+  overflow: hidden;
+}
+
+.reveal img {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+  transform-origin: left;
+}
+// theme-btn
+.theme-btn {
+  background-color: var(--main-color); // Replace with your actual theme color
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  text-transform: capitalize;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  padding: 24px 45px;
+  border-radius: 7px;
+  z-index: 1;
+  display: inline-block;
+  line-height: 1;
+  border: none;
+
+  // Hover effect
+  &:hover {
+    color: #fff;
+  }
+
+  // Left overlay on hover
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 0;
+    content: "";
+    background-color: var(--second-color); // Replace with your header color
+    transition: all 0.4s ease-in-out;
+    border-radius: 7px 0 0 7px;
+    z-index: -1;
+  }
+
+  // Right overlay on hover
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 0;
+    content: "";
+    background-color: var(--second-color); // Replace with your header color
+    transition: all 0.4s ease-in-out;
+    border-radius: 0 7px 7px 0;
+    z-index: -1;
+  }
+
+  // Hover Animation Trigger
+  &:hover::before,
+  &:hover::after {
+    height: 100%;
+  }
+}
+.progress {
+  background-color: #e9ecef; // Light background for contrast
+  border-radius: 5px;
+  height: 10px; // Ensure the progress bar has height
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: var(
+    --main-color
+  ); // Bootstrap primary color (you can change it)
+  width: 0; // Start from 0%
+  height: 100%; // Ensure the bar fills the height
+  transition: width 1.5s ease-in-out; // Smooth animation
+  border-radius: 5px;
+}
+
+a.theme-btn1 {
+  position: relative;
+  background: linear-gradient(0deg, var(--main-color), #5b288a 50%);
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 800;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 14px 30px;
+  text-transform: uppercase;
+  border-radius: 35px;
+  color: #fff !important;
+  z-index: 1;
+  transition: all 500ms ease;
+
+  // Fixing the hover effect
+  &::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, var(--second-color), #fd6146 50%);
+    z-index: -1;
+    transition: all 500ms ease;
+  }
+
+  &:hover::before {
+    width: 100%;
+  }
+}
+// fancy underline
+.fancy-underline {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff8c00, #ff0080, #6a00ff);
+    border-radius: 2px;
+    transition: width 0.3s ease-in-out;
+  }
+
+  // Hover Effect
+  &:hover::after {
+    width: 80%;
+  }
+
+  // Responsive Adjustments
+  @media only screen and (max-width: 768px) {
+    &::after {
+      width: 50%;
+      height: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    &::after {
+      width: 40%;
+      height: 2px;
+    }
+  }
+}
+
+// animations
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
 }

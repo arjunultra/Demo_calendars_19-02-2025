@@ -1,0 +1,96 @@
+/* Main Odometer container */
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background: transparent !important;
+  color: #000 !important;
+}
+
+/* Each digit styling */
+.odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  background: transparent !important;
+  color: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hides unnecessary spacers */
+.odometer-digit-spacer {
+  visibility: hidden !important;
+  background: transparent !important;
+}
+
+/* Main digit area */
+.odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: transparent !important;
+}
+
+/* Ribbon animation for digits */
+.odometer-ribbon,
+.odometer-ribbon-inner {
+  display: block;
+  background: transparent !important;
+  -webkit-backface-visibility: hidden;
+  color: #000 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure number visibility */
+.odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0);
+  color: #000 !important;
+  background: transparent !important;
+}
+
+/* Animation transitions */
+.odometer-animating-up .odometer-ribbon-inner,
+.odometer-animating-down .odometer-ribbon-inner {
+  transition: transform 2s ease-in-out !important;
+  background: transparent !important;
+}
+
+/* Animation for up and down counting */
+.odometer-animating-up .odometer-ribbon-inner {
+  transform: translateY(-100%) !important;
+}
+
+.odometer-animating-down .odometer-ribbon-inner {
+  transform: translateY(0) !important;
+}
+
+/* Force remove any box-shadow, borders, or background */
+.odometer-digit,
+.odometer-ribbon-inner {
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+/* Completely remove arrow indicators */
+.odometer-digit::before {
+  content: none !important;
+}
+
+/* Default font and color */
+.odometer {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #000 !important;
+  background-color: transparent !important;
+}
