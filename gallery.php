@@ -45,12 +45,7 @@
     <?php include "header.php"; ?>
     <section class="gallery">
         <div class="gallery-banner d-flex flex-column align-items-center justify-content-center">
-            <!-- <div class="text-container text-white font-weight-bold wow slideInLeft">
-                <h1 class="text-center heading1 wow zoomInRight"><span class="arial font-weight-bold text-main">Demo
-                        Printz - <span class="text-white">Our Gallery</span></span>
-                </h1>
-                <p class="heading3">Showcasing Our <span class="text-main">Masterpieces</span></p>
-            </div> -->
+
         </div>
     </section>
     <section class="mygallery pad wow fadeInDownBig" data-wow-delay="2s">
@@ -169,9 +164,11 @@
     </section>
 
     <?php include_once "footer.php"; ?>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
-    <div class="custom-cursor"></div>
-    <div class="click-effect"></div>
 </body>

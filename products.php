@@ -1,24 +1,25 @@
-<?php $page = "services"; ?>
+<?php $page = "products"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head itemscope itemtype="http://www.schema.org/website">
-    <title>Demo Printz | Online Offset Printing Sale | Sivakasi Offset Printers | Printing Discount Sale |
-        Sivakasi Printers</title>
+    <title>Demo Calendarz | Calendar Printing and Sales | Sivakasi Calendar Designers and Printers | Calendar Discount
+        Sale |
+        Sivakasi Calendar Designing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Demo Printz">
+    <meta property="og:title" content="Demo Calendarz">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Demo Printz">
-    <meta property="og:url" content="https://www.demoprintz.com">
-    <meta property="og:image" content="https://www.demoprintz.com/images/android-icon-192x192.png">
+    <meta property="og:site_name" content="Demo Calendarz">
+    <meta property="og:url" content="https://www.democalendarz.com">
+    <meta property="og:image" content="https://www.democalendarz.com/images/android-icon-192x192.png">
     <meta name="keywords"
-        content="Demo Printz, offset printing, best printing services, printing discount sale, sivakasi printing online">
+        content="Demo Calendarz, Calendar Designing and printing, Best calendar printing services, calendar discount sale, sivakasi calendar sale online">
     <meta property="og:description" name="description"
-        content="We are one of the leading wholesale offset printers and dealer in printing allied works. We welcome you to the coolest printing site on the WEB, where you can get all top quality prints & other printing-related products.">
+        content="We are one of the leading wholesale calendar designers and printers and dealer in printing allied works. We welcome you to the coolest calendar site on the WEB, where you can get all top quality calendar prints & other printing-related products.">
     <meta name="robots" content="all">
     <meta name="revisit-after" content="10 Days">
-    <meta name="copyright" content="Demo Printz">
+    <meta name="copyright" content="Demo Calendarz">
     <meta name="language" content="English">
     <meta name="distribution" content="Global">
     <meta name="web_author" content="srisoftwarez.com">
@@ -26,473 +27,437 @@
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
     <link rel="icon" sizes="192x192" href="images/android-icon-192x192.png">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/hover-min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/wow.js"></script>
-    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- Keep this before style.css -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Should be last -->
+
 
 </head>
 <!-- index-carousel  -->
 
 <!-- index-carousel end -->
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body data-spy="scroll" data-target="#productSidebar" data-offset="100" itemscope itemtype="http://schema.org/WebPage">
+
     <?php include "header.php"; ?>
-    <section class="services-intro">
-        <div class="services-banner d-flex flex-column align-items-center justify-content-center">
-            <div class="text-container text-white font-weight-bold wow slideInLeft">
-                <h2 class="text-center heading1 font-weight-bold">Demo Printz <span
-                        class="arial font-weight-bold text-main"> - Our
-                        Services</span>
-                </h2>
-                <p class="heading3">Turning Ideas into Impressions - Your Trusted Printing Partner!</p>
-            </div>
-        </div>
-    </section>
-    <section class="services-start" id="intro">
-        <div class="container">
-            <h1 class="heading1 font-weight-bold text-main text-center text-uppercase pt-5">Our Printing Services</h1>
-            <div class="heading-underline"></div>
-            <p class="pt-5">Demo Printz as a Digital Printing Service Provider and a premier company specializing in
-                both
-                traditional offset
-                and modern digital printing services. Catering to businesses, individuals, and creative professionals,
-                we
-                combine advanced technology with exceptional craftsmanship to deliver stunning print materials.</p>
-        </div>
+    <section class="products-intro wow slideInRight">
+        <div class="products-banner d-flex flex-column align-items-center justify-content-center">
 
+        </div>
     </section>
-    <section class="services">
-        <!-- Service Sections -->
+    <section class="products-content">
         <div class="container-fluid">
-            <!-- Business Cards -->
-            <div id="business-cards" class="service-section py-5">
+            <div class="row">
+                <!-- Sticky Sidebar -->
+                <nav id="productSidebar" class="col-lg-3 col-md-4 sidebar sticky-top wow slideInLeft"
+                    data-wow-delay="1.5s" data-spy="scroll" data-target="#productSidebar" data-offset="100">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="product-nav-link active" href="#daily-calendars">Daily Calendars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="product-nav-link" href="#monthly-sheets">Monthly Sheets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="product-nav-link" href="#yearly-planners">Yearly Planners</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="product-nav-link" href="#desk-calendars">Desk Calendars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="product-nav-link" href="#pocket-calendars">Pocket Calendars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="product-nav-link" href="#fridge-calendars">Magnetic Fridge Calendars</a>
+                        </li>
+                    </ul>
+                </nav>
 
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
 
-                        <h2 class="sub-heading font-weight-bold text-center" id=""><span
-                                class="arial font-weight-bold text-main">Business Cards
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container-fluid mt-5">
-                    <div class="row">
-                        <!-- Left Section: Images -->
-                        <div class="col-12 col-md-6 col-lg-6 mb-5">
-                            <div class="img-carousel" data-carousel="business-card">
-                                <div>
-                                    <img id="largeImage" class="large-image" src="./images/bcard-6.webp"
-                                        alt="Large Image">
-                                </div>
-                                <div class="row small-images-container mt-3">
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/bcard-5.webp" alt="Small Image 1">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/bcard-1.webp" alt="Small Image 2">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/bcard-4.webp" alt="Small Image 3">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/bcard-2.webp" alt="Small Image 5">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Right Section: Text -->
-                        <div
-                            class="col-12 col-md-6 col-lg-6 text-section d-flex flex-column align-items-center justify-content-around">
-                            <h3 class="text-main font-weight-bold text-uppercase heading3">Business cards available in
-                                all shapes
-                                and sizes</h3>
-                            <p>We are your go-to experts for Business Card Designing and Printing Services. With a keen
-                                eye for detail and a passion for perfection, Demo Printz transforms your business card
-                                ideas into tangible pieces of art.</p>
-                            <ul class="lh-2">
-                                <li class="helvetica"><span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> Elevate your business card game with our Rounded Corner Business
-                                    Cards, imparting a
-                                    stylish and distinctive flair to your full-color printed pieces.</li>
-                                <li class="helvetica"><span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> These unique cards, crafted from a robust 300gsm, 350gsm, offer a
-                                    sturdy and strong
-                                    finish, enhancing the richness of colors in your design.</li>
-                                <li class="helvetica"> <span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> Measuring at the size 51mm by 90 mm these round-cornered business
-                                    cards not only
-                                    stand out but also make a lasting impression.</li>
-                            </ul>
-                            <a href="contact.php" class="btn btn-outline-main-lightbg d-block mt-3">Get Quote Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="brouchures" class="service-section mb-5">
-
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
-
-                        <h2 class="sub-heading font-weight-bold text-center py-5" id="brouchures"><span
-                                class="arial font-weight-bold text-main">Brochures
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container-fluid mt-5">
-                    <div class="row">
-                        <!-- Left Section: Images -->
-                        <div class="col-md-6 mb-5">
-                            <div class="img-carousel" data-carousel="brochure">
-                                <div>
-                                    <img id="largeImage" class="large-image" src="./images/brouchure-5.webp"
-                                        alt="Large Image">
-                                </div>
-                                <div class="row small-images-container mt-3">
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/brouchure-1.webp" alt="Small Image 1">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/brouchure-2.webp" alt="Small Image 2">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/brouchure-3.webp" alt="Small Image 3">
-                                    </div>
-                                    <div class="col-3">
-                                        <img class="small-image" src="./images/brouchure-4.webp" alt="Small Image 4">
-                                    </div>
+                <!-- Product Listings -->
+                <div class="col-lg-9 col-md-8 content-area">
+                    <!-- Daily Calendars -->
+                    <section id="daily-calendars" class="product-category wow fadeInUp" data-wow-delay="1.5s">
+                        <h2 class="category-title text-main">Daily Calendars</h2>
+                        <p class="category-description">
+                            Stay organized with our customizable daily calendars, perfect for offices, homes, and
+                            personal use.
+                        </p>
+                        <ul class="feature-list">
+                            <li class=""><i class="bi bi-check-circle text-second"></i> High-quality paper</li>
+                            <li class=""><i class="bi bi-brush text-second"></i> Customizable cover design</li>
+                            <li class=""><i class="bi bi-arrows-move text-second"></i> Compact and easy to carry</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/products-daily-1.webp" class="img-thumbnail"
+                                        alt="Daily Calendar 1">
+                                    <h5 class="product-title">Classic Daily Calendar</h5>
+                                </div>
+                            </div>
 
-                        <!-- Right Section: Text -->
-                        <div class="col-12 col-md-6 col-lg-6 text-section d-flex flex-column align-items-center justify-content-around"">
-                            <h3 class=" text-main font-weight-bold text-uppercase heading3">brochures that speak
-                            Business</h3>
-                            <p>At Demo Printz, we specialize in creating captivating and professionally designed
-                                brochures that effectively communicate your message. Our state-of-the-art printing
-                                technology ensures vibrant colors and crisp details, making your brochures stand out.
-                                Trust us to deliver high-quality brochures that leave a lasting impression on your
-                                audience.</p>
-                            <ul class="lh-2">
-                                <li class="helvetica"><span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> Professional Design: Our brochures are crafted with eye-catching
-                                    designs that effectively convey your message and brand identity.</li>
-                                <li class="helvetica"><span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> High-Quality Printing: We use the latest printing technology to
-                                    ensure vibrant colors, sharp images, and crisp text, making your brochures stand
-                                    out.</li>
-                                <li class="helvetica"> <span><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="#fb4e04"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="20 6 9 17 4 12"></polyline>
-                                        </svg></span> Customizable Options: Choose from a variety of paper stocks,
-                                    finishes, and folding options to create brochures that perfectly match your needs
-                                    and preferences.</li>
-                            </ul>
-                            <a href="contact.php" class="btn btn-outline-main-lightbg d-block mt-3">Get Quote Now</a>
+
+
                         </div>
-                    </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
+
+                    <!-- Monthly Sheets -->
+                    <section id="monthly-sheets" class="product-category">
+                        <h2 class="category-title text-main">Monthly Sheets</h2>
+                        <p class="category-description ml-2">
+                            Plan your months effectively with our premium monthly sheets designed for professionals.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-calendar-check text-second"></i> Ample writing space</li>
+                            <li><i class="bi bi-printer text-second"></i> Custom logo printing</li>
+                            <li><i class="bi bi-shield-check text-second"></i> Durable and long-lasting</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/12.webp" class="img-fluid" alt="Monthly Sheet 1">
+                                    <h5 class="product-title">Standard Monthly Sheet</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center pb-lg-4">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
+                    <section id="yearly-planners" class="product-category">
+                        <h2 class="category-title text-main">Yearly Planners</h2>
+                        <p class="category-description">
+                            Plan your entire year effectively with our customizable yearly planners, designed for
+                            professionals and students.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-calendar-check text-second"></i> Comprehensive yearly overview</li>
+                            <li><i class="bi bi-pencil-square text-second"></i> Customizable cover and pages</li>
+                            <li><i class="bi bi-bookmark text-second"></i> Built-in bookmarks for easy navigation</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/yearly-planner-products.webp" class="img-fluid"
+                                        alt="Yearly Planner 1">
+                                    <h5 class="product-title">Professional Yearly Planner</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
+                    <!-- desk calendars -->
+                    <section id="desk-calendars" class="product-category">
+                        <h2 class="category-title text-main">Desk Calendars</h2>
+                        <p class="category-description">
+                            Keep your tasks in view with our stylish desk calendars, perfect for any workspace or
+                            office setup.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-easel2 text-second"></i> Sturdy stand design</li>
+                            <li><i class="bi bi-palette text-second"></i> Customizable themes</li>
+                            <li><i class="bi bi-brush text-second"></i> High-quality print and finish</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/desk-calendar-products.webp" class="img-fluid"
+                                        alt="Desk Calendar 1">
+                                    <h5 class="product-title">Classic Desk Calendar</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center pb-lg-4">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
+                    <!-- pocket calendars -->
+                    <section id="pocket-calendars" class="product-category">
+                        <h2 class="category-title text-main">Pocket Calendars</h2>
+                        <p class="category-description">
+                            Carry your schedule anywhere with our compact pocket calendars, perfect for people on
+                            the go.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-wallet2 text-second"></i> Slim and portable design</li>
+                            <li><i class="bi bi-person-badge text-second"></i> Custom branding options</li>
+                            <li><i class="bi bi-droplet text-second"></i> Water-resistant cover</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/pocket-calendar-products.webp" class="img-fluid"
+                                        alt="Pocket Calendar 1">
+                                    <h5 class="product-title">Classic Pocket Calendar</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
+                    <!-- Magnetic Fridge Calendars -->
+                    <section id="fridge-calendars" class="product-category">
+                        <h2 class="category-title text-main">Magnetic Fridge Calendars</h2>
+                        <p class="category-description text-white ml-2">
+                            Stay on top of your schedule with our magnetic fridge calendars, perfect for kitchens
+                            and office spaces.
+                        </p>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-magnet text-second"></i> Strong magnetic backing</li>
+                            <li><i class="bi bi-brush-fill text-second"></i> Customizable themes and colors</li>
+                            <li><i class="bi bi-pencil text-second"></i> Easy-to-write surface</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="product-card">
+                                    <img src="./images/magnetic-calendar-products.webp" class="img-fluid"
+                                        alt="Fridge Calendar 1">
+                                    <h5 class="product-title">Standard Fridge Calendar</h5>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="btn-wrapper d-flex align-items-center justify-content-center pb-lg-4">
+                            <a class="theme-btn1" href="contact.php">Order Now</a>
+                        </div>
+                    </section>
                 </div>
             </div>
-            <!-- <div id="id-three" class="service-section">
-
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
-
-                        <h2 class="sub-heading font-weight-bold text-center py-5" id="biz-cards"><span
-                                class="arial font-weight-bold text-main">Business Cards
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container my-5">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/services-businesscard.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Designing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row flex-row-reverse align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-1.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Printing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-3.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Cutting Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="id-four" class="service-section">
-
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
-
-                        <h2 class="sub-heading font-weight-bold text-center py-5" id="biz-cards"><span
-                                class="arial font-weight-bold text-main">Business Cards
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container my-5">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/services-businesscard.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Designing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row flex-row-reverse align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-1.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Printing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-3.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Cutting Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="id-five" class="service-section">
-
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
-
-                        <h2 class="sub-heading font-weight-bold text-center py-5" id="biz-cards"><span
-                                class="arial font-weight-bold text-main">Business Cards
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container my-5">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/services-businesscard.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Designing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row flex-row-reverse align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-1.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Printing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-3.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Cutting Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="id-6" class="service-section">
-
-                <div class="card-banner d-flex flex-column align-items-center justify-content-center">
-                    <div class="text-container text-white font-weight-bold wow slideInLeft">
-
-                        <h2 class="sub-heading font-weight-bold text-center py-5" id="biz-cards"><span
-                                class="arial font-weight-bold text-main">Business Cards
-                                Designing &
-                                Printing Service</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="container my-5">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/services-businesscard.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Designing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row flex-row-reverse align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-1.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Printing Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <img src="images/service-3.webp" alt="Business Cards" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="text-main">Cutting Your Business Cards</h4>
-                            <p>Make a lasting impression with our custom-designed business cards. We blend
-                                creativity
-                                and
-                                professionalism to reflect your brand in the perfect light.
-                                Elevate your professional image with custom-designed business cards that make a
-                                memorable
-                                impression. We craft high-quality cards that reflect your brand's identity
-                                perfectly.
-                            </p>
-                        </div>
-                    </div> -->
-            <!-- </div> -->
         </div>
-
-
-
-
     </section>
-    <?php include "footer.php"; ?>
-    <div class="custom-cursor"></div>
-    <div class="click-effect"></div>
 
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+
+    </script>
+    <script src="./js/script.js"></script>
+    <?php include "footer.php"; ?>
 </body>

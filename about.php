@@ -43,17 +43,17 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
     <?php include "header.php"; ?>
-    <section class="about-banner">
+    <section class="about-banner wow fadeInRight">
         <div class="d-flex flex-column align-items-center justify-content-center">
         </div>
     </section>
 
-    <section class="about-section py-5">
+    <section class="about-section py-5 wow fadeInUp" data-wow-delay="2.5s">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row d-flex align-items-stretch">
                 <!-- Calendar Images Section -->
-                <div class="col-lg-6">
-                    <div class="calendar-images">
+                <div class="col-lg-6 d-flex flex-column h-100">
+                    <div class="calendar-images flex-grow-1">
                         <div class="image-feature reveal image-animation">
                             <img src="./images/12.webp" alt="Premium Calendar Design" class="img-fluid">
                         </div>
@@ -78,7 +78,6 @@
                                         d="M93.8771 2.53621C96.8982 1.28483 98.4087 0.659138 100 0.659138C101.591 0.659138 103.102 1.28483 106.123 2.5362L164.588 26.7531C167.609 28.0045 169.119 28.6302 170.245 29.7554C171.37 30.8806 171.995 32.3912 173.247 35.4123L197.464 93.8771C198.715 96.8982 199.341 98.4087 199.341 100C199.341 101.591 198.715 103.102 197.464 106.123L173.247 164.588C171.995 167.609 171.37 169.119 170.245 170.245C169.119 171.37 167.609 171.995 164.588 173.247L106.123 197.464C103.102 198.715 101.591 199.341 100 199.341C98.4087 199.341 96.8982 198.715 93.8771 197.464L35.4123 173.247C32.3912 171.995 30.8806 171.37 29.7554 170.245C28.6302 169.119 28.0045 167.609 26.7531 164.588L2.53621 106.123C1.28483 103.102 0.659138 101.591 0.659138 100C0.659138 98.4087 1.28483 96.8982 2.5362 93.8771L26.7531 35.4123C28.0045 32.3912 28.6302 30.8806 29.7554 29.7554C30.8806 28.6302 32.3912 28.0045 35.4123 26.7531L93.8771 2.53621Z"
                                         fill="#5b288a"></path>
                                 </svg>
-
                                 <i class="bi bi-arrow-up-right-circle-fill text-light"> Order Now</i>
                             </a>
                         </div>
@@ -86,44 +85,104 @@
                 </div>
 
                 <!-- About Content Section -->
-                <div class="col-lg-6">
-                    <div class="about-calendar-content">
-                        <h5 class="section-subtitle text-uppercase text-main">About Our Calendars</h5>
-                        <h2 class="section-title text-second font-weight-bold">Crafting Timeless Calendars for Every
-                            Occasion</h2>
-                        <p>Our calendars are designed with precision and creativity, perfect for personal use, corporate
-                            gifts, or promotional branding. From daily planners to custom magnetic fridge calendars, we
-                            offer a wide range of styles and formats.</p>
-                        <div class="calendar-stats d-flex justify-content-between mt-4">
-                            <div class="stat-item text-center">
-                                <h2 class="text-main font-weight-bold"><span class="odometer" data-count="500">0</span>+
-                                </h2>
-                                <p>Custom Designs</p>
-                            </div>
-                            <div class="stat-item text-center">
-                                <h2 class="text-main font-weight-bold"><span class="odometer"
-                                        data-count="1000">0</span>+</h2>
-                                <p>Satisfied Clients</p>
-                            </div>
-                            <div class="stat-item text-center border-0">
-                                <h2 class="text-main font-weight-bold"><span class="odometer"
-                                        data-count="50000">0</span>+</h2>
-                                <p>Calendars Delivered</p>
+                <div class="col-lg-6 d-flex flex-column justify-content-center h-100">
+                    <h2 class="section-title text-main font-weight-bold">Why Choose Us</h2>
+                    <p>We specialize in crafting high-quality custom calendars designed to meet your personal and
+                        business needs. From sleek desk calendars to eye-catching wall planners, our products are made
+                        to leave a lasting impression.</p>
+
+                    <div class="row my-5">
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-truck"></i>
+                                </div>
+                                <h3>Fast Shipping</h3>
+                                <p>We ensure prompt delivery across the country so your calendars arrive on time for any
+                                    event or promotion.</p>
                             </div>
                         </div>
 
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-bag-check"></i>
+                                </div>
+                                <h3>Easy to Shop</h3>
+                                <p>Our streamlined ordering process allows you to customize and purchase your calendars
+                                    effortlessly.</p>
+                            </div>
+                        </div>
 
-                        <div class="mt-4">
-                            <a href="/contact" class="theme-btn1">View Our Products</a>
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                                <h3>24/7 Support</h3>
+                                <p>Our dedicated support team is always available to assist you with any queries or
+                                    custom requests.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-arrow-counterclockwise"></i>
+                                </div>
+                                <h3>Hassle-Free Returns</h3>
+                                <p>If you're not satisfied, our easy return policy ensures a smooth experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-brush"></i>
+                                </div>
+                                <h3>Custom Designs</h3>
+                                <p>Bring your brand to life with unique calendar designs tailored specifically for your
+                                    business or event.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-recycle"></i>
+                                </div>
+                                <h3>Eco-Friendly Materials</h3>
+                                <p>We use sustainable paper and eco-friendly inks, ensuring a minimal environmental
+                                    impact.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-cart-check"></i>
+                                </div>
+                                <h3>Bulk Order Discounts</h3>
+                                <p>Get special discounts on large orders, perfect for corporate gifts and promotional
+                                    events.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="feature hvr-bounce-to-top hvr-glow p-2">
+                                <div class="icon">
+                                    <i class="bi bi-patch-check-fill"></i>
+                                </div>
+                                <h3>Quality Assurance</h3>
+                                <p>Every calendar undergoes strict quality checks to ensure it meets our high standards
+                                    before delivery.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- about-second -->
-    <section class="service-section py-5 dark-bg position-relative">
+    <section class="service-section py-5 dark-bg position-relative wow fadeIn" data-wow-delay="1.5s">
         <!-- Decorative Shapes -->
         <div class="position-absolute w-100 top-0">
             <img src="images/shape.png" alt="Decorative Shape" class="img-fluid">
@@ -204,9 +263,7 @@
                             <img src="./images/custom-calendar.webp" alt="Custom Calendars" class="img-fluid rounded">
                         </div>
                         <div class="img-secondary d-flex">
-                            <img src="./images/desk-calendar-2.webp" alt="Desk Calendars"
-                                class="img-fluid rounded mr-3">
-                            <img src="./images/12.webp" alt="Wall Calendars" class="img-fluid rounded">
+                            <img src="./images/7.webp" alt="Wall Calendars" class="img-fluid rounded">
                         </div>
                         <div class="experience-counter position-absolute bg-primary text-white text-center p-3 rounded">
                             <h3 class="mb-0">25+</h3>
@@ -251,6 +308,26 @@
                                         aria-valuemax="100" data-progress="90"></div>
                                 </div>
                             </div>
+                            <div class="mb-3">
+                                <h6 class="d-flex justify-content-between">
+                                    Timely Delivery
+                                    <span>98%</span>
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0"
+                                        aria-valuemax="100" data-progress="98"></div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="d-flex justify-content-between">
+                                    Wastages Minimised
+                                    <span>99%</span>
+                                </h6>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0"
+                                        aria-valuemax="100" data-progress="99"></div>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -259,13 +336,15 @@
                         <a href="contact.php" class="theme-btn">
                             Get A Custom Quote <i class="bi bi-arrow-right ml-2"></i>
                         </a>
+                        <div class="image-container mt-5"><img src="./images/desk-calendar-2.webp" alt="desk calendar"
+                                class="img-fluid" title="Demo Calendarz"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- about four -->
-    <section class="infra-section py-5">
+    <section class="infra-section py-5 wow fadeIn" data-wow-delay="1.5s">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-12">

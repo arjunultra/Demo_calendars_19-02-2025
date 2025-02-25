@@ -66,12 +66,12 @@
                         Products
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="products.php#business-cards">Daily Calendars Printing</a>
-                        <a class="dropdown-item" href="products.php#brouchures">Monthly Sheet</a>
-                        <a class="dropdown-item" href="products.php">Yearly Planner Calendar</a>
-                        <a class="dropdown-item" href="products.php">Desk Calendars</a>
-                        <a class="dropdown-item" href="products.php">Personal Pocket Calendars</a>
-                        <a class="dropdown-item" href="products.php">Magnetic Fridge Calendars</a>
+                        <a class="dropdown-item" href="products.php#daily-calendars">Daily Calendars Printing</a>
+                        <a class="dropdown-item" href="products.php#monthly-sheets">Monthly Sheet</a>
+                        <a class="dropdown-item" href="products.php#yearly-planners">Yearly Planner Calendar</a>
+                        <a class="dropdown-item" href="products.php#desk-calendars">Desk Calendars</a>
+                        <a class="dropdown-item" href="products.php#pocket-calendars">Personal Pocket Calendars</a>
+                        <a class="dropdown-item" href="products.php#fridge-calendars">Magnetic Fridge Calendars</a>
                     </div>
                 </li>
 

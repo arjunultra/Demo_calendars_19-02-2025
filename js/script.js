@@ -101,3 +101,108 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(counter);
   });
 });
+// copy to clipboard
+$(document).ready(function () {
+  // Function for copying phone number or email
+  function copyToClipboard(data, $element) {
+    navigator.clipboard.writeText(data).then(
+      () => {
+        // Show success message
+        const $message = $element.closest(".row").find(".copy-success-message");
+        $message.fadeIn(200).delay(1000).fadeOut(200);
+      },
+      () => {
+        // Handle failure (optional)
+        alert("Failed to copy.");
+      }
+    );
+  }
+
+  // Copy phone number
+  $(".copy-phone").on("click", function () {
+    const phoneNumber = $(this).data("phone");
+    copyToClipboard(phoneNumber, $(this));
+  });
+
+  // Copy email address
+  $(".copy-email").on("click", function () {
+    const email = $(this).data("email");
+    copyToClipboard(email, $(this));
+  });
+});
+// product page scrollspy
+document.addEventListener("DOMContentLoaded", function () {
+  const sidebarLinks = document.querySelectorAll(".product-nav-link");
+  const sections = document.querySelectorAll(".product-category");
+  const offset = 100; // Matches the sticky offset
+
+  function onScroll() {
+    let currentSectionId = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - offset;
+      const sectionHeight = section.offsetHeight;
+
+      if (
+        window.scrollY >= sectionTop &&
+        window.scrollY < sectionTop + sectionHeight
+      ) {
+        currentSectionId = section.getAttribute("id");
+      }
+    });
+
+    // Update active class
+    sidebarLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href").substring(1) === currentSectionId) {
+        link.classList.add("active");
+      }
+    });
+  }
+
+  // Smooth scroll for sidebar links
+  sidebarLinks.forEach((link) => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute("href").substring(1);
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        let scrollToPosition = targetSection.offsetTop - offset;
+
+        // Special case for the first section
+        if (targetId === "daily-calendars") {
+          scrollToPosition = targetSection.offsetTop - (offset - 800); // Fine-tune if needed
+        }
+        if (targetId === "monthly-sheets") {
+          scrollToPosition = targetSection.offsetTop - (offset - 820); // Fine-tune if needed
+        }
+        if (targetId === "yearly-planners") {
+          scrollToPosition = targetSection.offsetTop - (offset - 815); // Fine-tune if needed
+        }
+        if (targetId === "desk-calendars") {
+          scrollToPosition = targetSection.offsetTop - (offset - 810); // Fine-tune if needed
+        }
+        if (targetId === "pocket-calendars") {
+          scrollToPosition = targetSection.offsetTop - (offset - 810); // Fine-tune if needed
+        }
+        if (targetId === "fridge-calendars") {
+          scrollToPosition = targetSection.offsetTop - (offset - 810); // Fine-tune if needed
+        }
+
+        window.scrollTo({
+          top: scrollToPosition,
+          behavior: "smooth",
+        });
+
+        // Update URL without refreshing
+        history.pushState(null, null, `#${targetId}`);
+      }
+    });
+  });
+
+  window.addEventListener("scroll", onScroll);
+
+  // Highlight on page load
+  onScroll();
+});

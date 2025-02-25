@@ -1,14 +1,10 @@
-<footer class="footer-section py-5 bg-light text-dark">
+<footer class="footer-section py-5 bg-light text-dark wow fadeInUp" data-wow-delay="1.5s">
     <div class="container">
         <div class="row">
             <!-- Logo and About Section -->
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="footer-logo-area">
                     <img src="./images/logo.png" alt="Eventify Logo" class="img-fluid mb-3">
-                    <p>
-                        We are committed to creating a platform where business leaders, innovators, and professionals
-                        can come together to exchange ideas.
-                    </p>
                     <ul class="list-inline mt-3">
                         <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>

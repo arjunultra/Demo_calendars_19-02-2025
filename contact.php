@@ -8,9 +8,9 @@
         Sivakasi Calendar Designing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:title" content="Demo Printz">
+    <meta property="og:title" content="Demo Calendarz">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Demo Printz">
+    <meta property="og:site_name" content="Demo Calendarz">
     <meta property="og:url" content="https://www.democalendarz.com">
     <meta property="og:image" content="https://www.democalendarz.com/images/android-icon-192x192.png">
     <meta name="keywords"
@@ -76,28 +76,41 @@
                 <!-- Phone -->
                 <div class="row align-items-center mb-4">
                     <div class="col-3 text-center">
-                        <div class="contact3 text-second">
+                        <div class="contact3 text-second copy-phone" data-phone="+919999999999">
                             <i class="bi bi-telephone-fill"></i>
                         </div>
                     </div>
                     <div class="col-9">
                         <div class="arial font-weight-bold text-main h4">Phone</div>
-                        <p class="helvetica">+91 9999999999<br>+91 8888888888<br>+91 7777777777</p>
+                        <p class="helvetica">
+                            <span class="copy-phone" data-phone="+919999999999">+91 9999999999</span><br>
+                            <span class="copy-phone" data-phone="+918888888888">+91 8888888888</span><br>
+                            <span class="copy-phone" data-phone="+917777777777">+91 7777777777</span>
+                        </p>
+                        <span class="copy-success-message"
+                            style="display: none; color: #28a745; font-size: 0.9rem;">Copied!</span>
                     </div>
                 </div>
+
 
                 <!-- Email -->
                 <div class="row align-items-center mb-4">
                     <div class="col-3 text-center">
-                        <div class="contact3 text-second">
+                        <div class="contact3 text-second copy-email" data-email="contact@democalendarz.com">
                             <i class="bi bi-envelope-fill"></i>
                         </div>
                     </div>
                     <div class="col-9">
                         <div class="arial font-weight-bold text-main h4">Email Address</div>
-                        <p class="helvetica">contact@democalendarz.com</p>
+                        <p class="helvetica">
+                            <span class="copy-email"
+                                data-email="contact@democalendarz.com">contact@democalendarz.com</span>
+                        </p>
+                        <span class="copy-success-message"
+                            style="display: none; color: #28a745; font-size: 0.9rem;">Copied!</span>
                     </div>
                 </div>
+
 
                 <!-- Working Hours -->
                 <div class="row align-items-center mb-4">
@@ -128,12 +141,12 @@
 
     <div class="fixed point w0">
         <a href="https://api.whatsapp.com/send?phone=919025456695">
-            <img src="images/whatsappicon.png" class="priceicn float-left" alt="Demo Printz" title="Demo Printz">
+            <img src="images/whatsappicon.png" class="priceicn float-left" alt="Demo Calendarz" title="Demo Calendarz">
         </a>
     </div>
     <div class="fixed point1 w0 d-none d-lg-block">
         <span class="time-of-year">
-            <img src="images/callicon.png" class="priceicn float-left" alt="Demo Printz" title="Demo Printz">
+            <img src="images/callicon.png" class="priceicn float-left" alt="Demo Calendarz" title="Demo Calendarz">
             <div class="tooltip text-white helvetica text-center"> For More Details Call <br>
                 <i class="bi bi-telephone text-white"></i> +91 94868 83523
             </div>
@@ -141,15 +154,9 @@
     </div>
     <div class="fixed point1 w0 d-lg-none">
         <a href="tel:+919486883523">
-            <img src="images/callicon.png" class="priceicn float-left" alt="Demo Printz" title="Demo Printz">
+            <img src="images/callicon.png" class="priceicn float-left" alt="Demo Calendarz" title="Demo Calendarz">
         </a>
     </div>
-    <!-- <div class="fixed point2">
-        <a href="products.php">
-            <img src="images/quickpurchase.png" class="priceicn2 float-right blink" alt="Demo Printz"
-                title="Demo Printz">
-        </a>
-    </div> -->
 
     <!-- Copyright Section -->
     <div class="container-fluid no-gutters">
@@ -160,12 +167,15 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
-<div class="custom-cursor"></div>
-<div class="click-effect"></div>
 </body>

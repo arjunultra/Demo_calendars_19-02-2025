@@ -8,9 +8,9 @@
 		Sivakasi Calendar Designing</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta property="og:title" content="Demo Printz">
+	<meta property="og:title" content="Demo Calendarz">
 	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="Demo Printz">
+	<meta property="og:site_name" content="Demo Calendarz">
 	<meta property="og:url" content="https://www.democalendarz.com">
 	<meta property="og:image" content="https://www.democalendarz.com/images/android-icon-192x192.png">
 	<meta name="keywords"
@@ -57,7 +57,7 @@
 	</div>
 	<!-- carousel ends -->
 	<!-- welcome section -->
-	<section class="container py-5 introduction-section">
+	<section class="container py-5 introduction-section wow fadeInDown">
 		<div class="row">
 			<!-- Left Column -->
 			<div class="col-lg-6 text-center left-content">
@@ -68,7 +68,7 @@
 					<p class="product-description">With our quality and quality understanding, our products are
 						qualified and professional staff, taking care of customer requests in healthy and hygienic
 						environments.</p>
-					<a href="/contact/" target="_blank" class="btn btn-primary enquiry-btn">Enquire Now</a>
+					<a href="contact.php" target="_blank" class="theme-btn enquiry-btn">Enquire Now</a>
 				</div>
 			</div>
 
@@ -84,14 +84,14 @@
 						<img src="./images/index-first-right.webp" alt="Product One" class="img-fluid gallery-image"
 							title="Demo Calenderz">
 						<div class="overlay">
-							<a href="products.php" class="btn btn-primary buy-now-btn">Buy Now</a>
+							<a href="products.php" class="theme-btn1 buy-now-btn">Buy Now</a>
 						</div>
 					</div>
 					<div class="col-6 gallery-item">
 						<img src="./images/index-second-right.webp" alt="Product Two" title="Demo Calenderz"
 							class="img-fluid gallery-image">
 						<div class="overlay">
-							<a href="products.php" class="btn btn-primary buy-now-btn">Buy Now</a>
+							<a href="products.php" class="theme-btn1 buy-now-btn">Buy Now</a>
 						</div>
 					</div>
 				</div>
@@ -103,7 +103,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="index-two">
+	<section class="index-two wow fadeIn">
 		<div class="job-area">
 			<div class="job-shape">
 				<img class="img-fluid" src="images/service-11.webp" alt="calendar3">
@@ -158,7 +158,7 @@
 		</div>
 	</section>
 	<!-- couter section starts -->
-	<section class="counter-area py-5">
+	<section class="counter-area py-5 wow slideInRight">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5">
@@ -200,7 +200,7 @@
 		</div>
 	</section>
 	<!-- our products section -->
-	<section class="products-area py-5">
+	<section class="products-area py-5 wow fadeInDown">
 		<div class="container">
 			<div class="section-title text-center mb-5">
 				<span class="sub-title text-light">Our Products</span>
