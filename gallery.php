@@ -42,10 +42,10 @@
 
 <body itemscope itemtype="http://schema.org/WebPage">
 
-    <?php include "header.php"; ?>
+    <?php include_once "header.php"; ?>
     <section class="gallery">
         <div class="gallery-banner d-flex flex-column align-items-center justify-content-center">
-
+            <h1 class="badge-pill badge-warning">OUR GALLERY</h1>
         </div>
     </section>
     <section class="mygallery pad wow fadeInDownBig" data-wow-delay="2s">
@@ -171,4 +171,5 @@
     <script>
         new WOW().init();
     </script>
+    <script src="js/script.js"></script>
 </body>

@@ -43,16 +43,15 @@
 <body itemscope itemtype="http://schema.org/WebPage">
 
     <?php include "header.php"; ?>
-    <section class="about-banner wow fadeInRight">
-        <div class="d-flex flex-column align-items-center justify-content-center">
-        </div>
+    <section class="about-banner wow fadeInRight d-flex flex-column align-items-center justify-content-center">
+        <h1 class="badge-pill badge-warning">ABOUT US</h1>
     </section>
 
     <section class="about-section py-5 wow fadeInUp" data-wow-delay="2.5s">
         <div class="container">
             <div class="row d-flex align-items-stretch">
                 <!-- Calendar Images Section -->
-                <div class="col-lg-6 d-flex flex-column h-100">
+                <div class="col-12 col-lg-6 d-flex flex-column h-100">
                     <div class="calendar-images flex-grow-1">
                         <div class="image-feature reveal image-animation">
                             <img src="./images/12.webp" alt="Premium Calendar Design" class="img-fluid">
@@ -85,14 +84,14 @@
                 </div>
 
                 <!-- About Content Section -->
-                <div class="col-lg-6 d-flex flex-column justify-content-center h-100">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center h-100">
                     <h2 class="section-title text-main font-weight-bold">Why Choose Us</h2>
                     <p>We specialize in crafting high-quality custom calendars designed to meet your personal and
                         business needs. From sleek desk calendars to eye-catching wall planners, our products are made
                         to leave a lasting impression.</p>
 
                     <div class="row my-5">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-truck"></i>
@@ -103,7 +102,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-bag-check"></i>
@@ -114,7 +113,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-headset"></i>
@@ -125,7 +124,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-arrow-counterclockwise"></i>
@@ -134,7 +133,7 @@
                                 <p>If you're not satisfied, our easy return policy ensures a smooth experience.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-brush"></i>
@@ -144,7 +143,7 @@
                                     business or event.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-recycle"></i>
@@ -154,7 +153,7 @@
                                     impact.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-cart-check"></i>
@@ -164,7 +163,7 @@
                                     events.</p>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="feature hvr-bounce-to-top hvr-glow p-2">
                                 <div class="icon">
                                     <i class="bi bi-patch-check-fill"></i>
@@ -184,7 +183,7 @@
     <!-- about-second -->
     <section class="service-section py-5 dark-bg position-relative wow fadeIn" data-wow-delay="1.5s">
         <!-- Decorative Shapes -->
-        <div class="position-absolute w-100 top-0">
+        <div class="d-none d-md-block position-absolute w-100 top-0">
             <img src="images/shape.png" alt="Decorative Shape" class="img-fluid">
         </div>
         <div class="position-absolute w-100 bottom-0">
@@ -276,7 +275,7 @@
                 <div class="col-lg-6">
                     <div class="about-content">
                         <h6 class="text-main text-uppercase">Contact Us</h6>
-                        <h2 class="mb-4">
+                        <h2 class="mb-4 text-second">
                             Elevate Your Brand with Custom Calendar Solutions
                         </h2>
                         <p class="mb-4">
@@ -350,11 +349,11 @@
                 <div class="col-12">
                     <!-- Container with background image -->
                     <div
-                        class="text-container d-flex flex-column justify-content-center align-items-center text-center text-lg-left text-light p-5">
+                        class="text-container d-flex flex-column justify-content-center align-items-center text-center text-lg-left text-light p-md-5">
                         <h3 class="text-uppercase font-weight-bold mb-4">
                             Excellence in Calendar Craftsmanship
                         </h3>
-                        <p class="text-light px-3">
+                        <p class="text-light px-md-3">
                             At <strong class="text-second">Demo Calendarz</strong>, our cutting-edge manufacturing
                             facility brings your
                             calendar ideas to life.
@@ -362,7 +361,7 @@
                             technology ensures
                             precision, durability, and top-tier quality for every project.
                         </p>
-                        <p class="text-light px-3 text-center text-lg-left">
+                        <p class="text-light px-md-3 text-center text-lg-left">
                             Our infrastructure is designed to handle bulk orders with ease while maintaining
                             customization flexibility for
                             all your branding needs.

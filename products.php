@@ -46,7 +46,7 @@
     <?php include "header.php"; ?>
     <section class="products-intro wow slideInRight">
         <div class="products-banner d-flex flex-column align-items-center justify-content-center">
-
+            <h1 class="badge-pill badge-warning text-uppercase">Our Products</h1>
         </div>
     </section>
     <section class="products-content">
@@ -55,6 +55,7 @@
                 <!-- Sticky Sidebar -->
                 <nav id="productSidebar" class="col-lg-3 col-md-4 sidebar sticky-top wow slideInLeft"
                     data-wow-delay="1.5s" data-spy="scroll" data-target="#productSidebar" data-offset="100">
+                    <h2 class="text-light text-capitalize fancy-underline">Our Products</h2>
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a class="product-nav-link active" href="#daily-calendars">Daily Calendars</a>

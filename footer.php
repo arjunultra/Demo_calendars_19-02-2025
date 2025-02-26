@@ -42,17 +42,17 @@
                     <ul class="list-unstyled text-dark">
                         <li class="d-flex align-items-center mb-2">
                             <span class="flex-shrink-0 mr-2">
-                                <img src="./images/phn1.svg" alt="phone icon" class="img-fluid"
-                                    style="width: 24px; height: 24px;">
-                            </span>
-                            <a class="text-dark flex-grow-1" href="tel:+11234567890">+91 123 456 7890</a>
-                        </li>
-                        <li class="d-flex align-items-center mb-2">
-                            <span class="flex-shrink-0 mr-2">
                                 <img src="./images/location1.svg" alt="location pin" class="img-fluid"
                                     style="width: 24px; height: 24px;">
                             </span>
                             <a class="text-dark flex-grow-1" href="#">Sivakasi</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-2">
+                            <span class="flex-shrink-0 mr-2">
+                                <img src="./images/phn1.svg" alt="phone icon" class="img-fluid"
+                                    style="width: 24px; height: 24px;">
+                            </span>
+                            <a class="text-dark flex-grow-1" href="tel:+911234567890">+91 123 456 7890</a>
                         </li>
                         <li class="d-flex align-items-center">
                             <span class="flex-shrink-0 mr-2">
@@ -78,7 +78,7 @@
                                 <img src="./images/pocket-calendar.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                 <img src="./images/poster-calendar.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@
                                 <img src="./images/service-11.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                 <img src="./images/desk-calendar.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 <img src="./images/fridge-calendar.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                                 <img src="./images/pocket-calendar.webp" alt="Gallery Image"
                                     class="img-fluid rounded equal-img">
                                 <div class="gallery-overlay d-flex align-items-center justify-content-center">
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="gallery.php"><i class="bi bi-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

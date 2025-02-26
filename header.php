@@ -89,3 +89,49 @@
         </div>
     </div>
 </nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-second text-light navbg shadow sticky-navbar">
+    <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand font-weight-bold text-uppercase" href="index.php">
+            <img src="./images/logo.png" alt="sticky nav logo" title="Demo Calendarz" class="sticky-nav-logo">
+            <!-- <i class="bi bi-calendar2-week-fill"></i> Demo Calendarz -->
+        </a>
+
+        <!-- Toggler -->
+        <button type="button" class="navbar-toggler mx-auto collapsed" data-toggle="collapse"
+            data-target="#stickyNavbar">
+            <span class="bi bi-list"> Menu </span>
+        </button>
+
+        <!-- Centered Nav Links -->
+        <div id="stickyNavbar" class="collapse navbar-collapse justify-content-center navfnt">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item px-2"><a class="nav-link hvr-bob hvr-underline-from-center"
+                        href="index.php">Home</a></li>
+                <li class="nav-item px-2"><a class="nav-link hvr-bob hvr-underline-from-center"
+                        href="about.php">About</a></li>
+                <li class="nav-item px-2 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">Products</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#daily-calendars">Daily
+                            Calendars Printing</a>
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#monthly-sheets">Monthly
+                            Sheet</a>
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#yearly-planners">Yearly
+                            Planner Calendar</a>
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#desk-calendars">Desk
+                            Calendars</a>
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#pocket-calendars">Personal
+                            Pocket Calendars</a>
+                        <a class="dropdown-item hvr-underline-from-center" href="products.php#fridge-calendars">Magnetic
+                            Fridge Calendars</a>
+                    </div>
+                </li>
+                <li class="nav-item px-2"><a class="nav-link hvr-bob hvr-underline-from-center"
+                        href="gallery.php">Gallery</a></li>
+                <li class="nav-item px-3"><a class="nav-link hvr-bob hvr-underline-from-center"
+                        href="contact.php">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -158,7 +158,7 @@
 		</div>
 	</section>
 	<!-- couter section starts -->
-	<section class="counter-area py-5 wow slideInRight">
+	<section class="counter-area py-5">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-5">
@@ -265,6 +265,102 @@
 			</div>
 		</div>
 	</section>
+	<!-- new section 1 -->
+	<section id="infrastructure" class="infrastructure section py-5">
+		<div class="container">
+			<!-- Section Title -->
+			<div class="section-title text-center mb-4">
+				<h2 class="text-main text-uppercase">Our Infrastructure</h2>
+				<p class="text-lead text-secondary">Advanced facilities delivering top-notch calendar production.</p>
+			</div>
+
+			<div class="row align-items-center">
+				<!-- Left Cards -->
+				<div class="col-lg-3 col-md-6">
+					<div class="infra-card">
+						<div class="icon">
+							<i class="bi bi-gear-wide-connected"></i>
+						</div>
+						<h3>Precision Printing</h3>
+						<p>High-resolution printing for crisp and vibrant calendar visuals.</p>
+					</div>
+
+					<div class="infra-card mt-4">
+						<div class="icon">
+							<i class="bi bi-box-seam"></i>
+						</div>
+						<h3>Secure Packaging</h3>
+						<p>Durable packaging to ensure safe delivery of every calendar.</p>
+					</div>
+				</div>
+
+				<!-- Calendar Image -->
+				<div class="col-lg-6 col-md-12 text-center">
+					<img src="./images/machine.webp" alt="Calendar Manufacturing" class="img-fluid calendar-image">
+				</div>
+
+				<!-- Right Cards -->
+				<div class="col-lg-3 col-md-6">
+					<div class="infra-card">
+						<div class="icon">
+							<i class="bi bi-people"></i>
+						</div>
+						<h3>Expert Team</h3>
+						<p>Skilled professionals ensuring perfection in design and production.</p>
+					</div>
+
+					<div class="infra-card mt-4">
+						<div class="icon">
+							<i class="bi bi-lightning-charge"></i>
+						</div>
+						<h3>Eco-Friendly Operations</h3>
+						<p>Energy-efficient systems with a focus on sustainability.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- new section two -->
+	<section id="testimonials" class="testimonials-section">
+		<div class="container">
+			<h2 class="section-title text-center text-second">What Our Clients Say</h2>
+			<div class="owl-carousel testimonials-carousel">
+				<div class="testimonial-item card">
+					<div class="card-body">
+						<div class="testimonial-icon">
+							<i class="bi bi-person-circle"></i> <!-- Male Icon -->
+						</div>
+						<p class="testimonial-text">"The custom calendars are top-notch. Excellent print quality and
+							quick delivery!"</p>
+						<h5 class="testimonial-author">— Sarah Johnson</h5>
+					</div>
+				</div>
+				<div class="testimonial-item card">
+					<div class="card-body">
+						<div class="testimonial-icon">
+							<i class="bi bi-person-fill"></i> <!-- Female Icon -->
+						</div>
+						<p class="testimonial-text">"Fantastic service! The personalized desk calendars were a hit with
+							our clients."</p>
+						<h5 class="testimonial-author">— Michael Lee</h5>
+					</div>
+				</div>
+				<div class="testimonial-item card">
+					<div class="card-body">
+						<div class="testimonial-icon">
+							<i class="bi bi-person-circle"></i> <!-- Male Icon -->
+						</div>
+						<p class="testimonial-text">"High-quality calendars with beautiful designs. Highly recommend
+							this company!"</p>
+						<h5 class="testimonial-author">— Priya Kumar</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
 
 
 

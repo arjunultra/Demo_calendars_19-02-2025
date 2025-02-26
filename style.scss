@@ -186,6 +186,40 @@ a.nav-link {
   font-weight: bold;
   text-transform: uppercase;
 }
+// sticky navbar
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #343a40; // Matches your existing navbar background
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-100%);
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  opacity: 0;
+  padding: 1em;
+
+  &.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .sticky-nav-logo {
+    width: 106px;
+    position: absolute;
+    top: 0;
+    left: 49px;
+    background: rebeccapurple;
+    border-radius: 50px 20px 20px 50px;
+  }
+  .nav-link {
+    color: white !important;
+    &:hover {
+      color: var(--main-color) !important;
+    }
+  }
+}
+
 // intro section
 .introduction-section {
   .left-content {
@@ -595,12 +629,142 @@ a.nav-link {
     background-image: url("../images/fridge-calendar.webp");
   }
 }
+// index additional section one
+/*--------------------------------------------------------------
+# Infrastructure Section with Image
+--------------------------------------------------------------*/
+$primary-color: #5b288a;
+$light-bg: #f8f9fa;
+$text-color: #333;
+
+.infrastructure {
+  background-color: $light-bg;
+  text-align: center;
+
+  .section-title {
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    p {
+      color: $text-color;
+    }
+  }
+
+  .infra-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      background: $primary-color;
+      color: white;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      margin: 0 auto 15px;
+      transition: background 0.3s ease;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      color: darken($text-color, 20%);
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+      .icon {
+        background: darken(#ff0080, 10%);
+      }
+    }
+  }
+
+  .calendar-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+// index last
+// TESTIMONIAL SECTION
+.testimonials-section {
+  background-color: var(--dark-bg);
+  padding: 60px 0;
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+
+  .testimonial-item {
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-body {
+      padding: 30px;
+      text-align: center;
+
+      .testimonial-icon {
+        font-size: 80px;
+        color: var(--main-color);
+        margin-bottom: 20px;
+      }
+
+      .testimonial-text {
+        font-style: italic;
+        margin-bottom: 20px;
+      }
+
+      .testimonial-author {
+        font-weight: 600;
+        color: #333;
+      }
+    }
+  }
+}
+
 // About page
 section.about-banner {
-  background-image: url("../images/about-banner.webp");
+  background-image: url("../images/about-banner1.webp");
+  background-color: #000000b3;
+  background-blend-mode: overlay;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 500px;
+  @media only screen and (max-width: 768px) {
+    height: 40vh; // Smaller height for mobile
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    height: 50vh; // Adjust for tablets
+  }
 }
 .about-section {
   overflow: hidden;
@@ -748,6 +912,8 @@ section.infra-section {
 section.gallery {
   .gallery-banner {
     background-image: url("../images/gallery-banner.webp");
+    background-color: #000000cb;
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -781,6 +947,8 @@ section.mygallery {
 section.products-intro {
   .products-banner {
     background-image: url("../images/products-banner.webp");
+    background-color: #000000ae;
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -804,8 +972,8 @@ section.products-intro {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: sticky;
-    top: 20px; // Adjust based on your navbar height
-    height: calc(60vh - 20px); // Full height minus top offset
+    top: 120px; // Adjust based on your navbar height
+    height: calc(70vh - 120px); // Full height minus top offset
     overflow-y: auto; // Allows scrolling if content overflows
     background-color: var(--second-color);
     color: var(--white);
@@ -944,6 +1112,8 @@ section.products-intro {
 .contactbg {
   .contact-banner {
     background-image: url("../images/contact-banner.webp");
+    background-color: #000000a1;
+    background-blend-mode: overlay;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1078,9 +1248,19 @@ footer {
   .notfound .notfound-404 {
     height: 142px;
   }
+  // header
+  .sticky-navbar {
+    top: 15px;
+  }
   // index page
   .main-header .logo-area {
     background: linear-gradient(144.6deg, var(--second-color), 100%, #fff 0%);
+  }
+  // products page
+  section.products-content {
+    #productSidebar {
+      display: none;
+    }
   }
 }
 
@@ -1188,6 +1368,9 @@ footer {
 }
 .dark-bg {
   background-color: var(--dark-bg) !important;
+}
+.bg-second {
+  background-color: var(--second-color) !important;
 }
 .bg-light-main {
   background-color: var(--light-main) !important;

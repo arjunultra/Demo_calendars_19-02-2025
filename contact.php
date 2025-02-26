@@ -46,6 +46,7 @@
     <?php include "header.php"; ?>
     <div class="contactbg">
         <div class="contact-banner d-flex flex-column align-items-center justify-content-center">
+            <h1 class="badge-pill badge-warning">Contact Us</h1>
         </div>
     </div>
     <div class="container pad">
