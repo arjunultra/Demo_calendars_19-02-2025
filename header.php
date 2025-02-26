@@ -133,5 +133,8 @@
                         href="contact.php">Contact</a></li>
             </ul>
         </div>
+        <div>
+            <h3 class="text-light"><i class="bi bi-phone"></i> +91 99999 99999</h3>
+        </div>
     </div>
 </nav>

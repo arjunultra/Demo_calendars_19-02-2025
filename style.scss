@@ -4,7 +4,7 @@ $primary-color: red;
 
 :root {
   --main-color: #5b288a;
-  --second-color: #ff7e6b;
+  --second-color: #e3381e;
   --light-color: #b5ef8a;
   --white: #fef9ff;
   --black: #000000;
@@ -931,7 +931,7 @@ section.gallery {
 }
 
 section.mygallery {
-  background-color: var(--dark-bg);
+  background-color: var(--white);
   overflow: hidden;
   .custom-card {
     height: 30em;
@@ -1175,6 +1175,9 @@ footer {
     &:hover .gallery-overlay {
       opacity: 1;
     }
+  }
+  h5 {
+    color: var(--second-color);
   }
 
   // Responsiveness

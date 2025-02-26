@@ -19,17 +19,17 @@
                 <div class="footer-links">
                     <h5 class="text-uppercase">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
-                                href="index.php">Home</a></li>
-                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
-                                href="about.php">About</a></li>
-                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
-                                href="products.php">Products</a></li>
-                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
-                                href="gallery.php">Gallery</a>
+                        <li class="mb-2"><i class="text-main bi bi-caret-right-square-fill"></i><a
+                                class="ml-2 text-dark" href="index.php">Home</a></li>
+                        <li class="mb-2"><i class="text-main bi bi-caret-right-square-fill"></i><a
+                                class="ml-2 text-dark" href="about.php">About</a></li>
+                        <li class="mb-2"><i class="text-main bi bi-caret-right-square-fill"></i><a
+                                class="ml-2 text-dark" href="products.php">Products</a></li>
+                        <li class="mb-2"><i class="text-main bi bi-caret-right-square-fill"></i><a
+                                class="ml-2 text-dark" href="gallery.php">Gallery</a>
                         </li>
-                        <li><i class="text-main bi bi-caret-right-square-fill"></i><a class="ml-2 text-dark"
-                                href="contact.php">Contact</a>
+                        <li class="mb-2"><i class="text-main bi bi-caret-right-square-fill"></i><a
+                                class="ml-2 text-dark" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
